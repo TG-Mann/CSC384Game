@@ -27,7 +27,6 @@ public class VerticalPlatformBehaviour : MonoBehaviour
        
         updateMovement();
         UpdateDirection();
-        print(transform.position);
     
     }
 
