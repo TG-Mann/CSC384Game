@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -12,9 +13,18 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     [SerializeField] private float dashCooldown = 0;
 
+    [SerializeField] private float jump;
+
+    [SerializeField] private Vector2 boxSize;
+
+    [SerializeField] private float castDistance;
+
+    [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
 
     private float movement;
+
+    private int numJumps;
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +36,9 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     void Update(){
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dash == 0 && dashCooldown == 0){
-            speed = speed * dashMultiplier;
-            dash = 100;
-        }
+        detectDash();
+        
+        numJumps = playerJump(numJumps);
        
     }
 
@@ -41,10 +50,10 @@ public class PlayerMovementBehaviour : MonoBehaviour
         rb.velocity = new Vector2(speed * movement, rb.velocity.y);
 
         updateDash();
-        
+
     }
 
-    void updateDash(){
+    private void updateDash(){
 
          if (dash == 1){
             dash -= 1;
@@ -59,4 +68,41 @@ public class PlayerMovementBehaviour : MonoBehaviour
         }
 
     }
+
+    private void detectDash(){
+         if (Input.GetKeyDown(KeyCode.LeftShift) && dash == 0 && dashCooldown == 0){
+            speed = speed * dashMultiplier;
+            dash = 100;
+        }
+    }
+
+    private int playerJump(int numJumps){
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded(numJumps)){
+            rb.velocity = new Vector2(rb.velocity.x, jump);
+            return numJumps = 1;
+          
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && !isGrounded(numJumps) && numJumps == 1){
+            rb.velocity = new Vector2(rb.velocity.x, jump);
+            return numJumps = 2;
+        }
+        else{
+            return numJumps;
+        }
+    }
+
+    private bool isGrounded(int numJumps){
+        if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer)){
+            numJumps = 0;
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    private void OnDrawGizmos(){
+        Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxSize);
+    }
+
+
 }

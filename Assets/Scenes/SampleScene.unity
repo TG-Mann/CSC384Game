@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 1206437}
   - component: {fileID: 1206436}
   - component: {fileID: 1206438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6416174}
   - component: {fileID: 6416173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7882197}
   - component: {fileID: 7882196}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 10851032}
   - component: {fileID: 10851031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20192010}
   - component: {fileID: 20192009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37191373}
   - component: {fileID: 37191372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -844,7 +844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48760149}
   - component: {fileID: 48760148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52828852}
   - component: {fileID: 52828851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,7 +1012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 53122162}
   - component: {fileID: 53122161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56015722}
   - component: {fileID: 56015721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1264,7 +1264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 70201306}
   - component: {fileID: 70201305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1432,7 +1432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77596411}
   - component: {fileID: 77596410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1516,7 +1516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 82695425}
   - component: {fileID: 82695424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1684,7 +1684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 88488294}
   - component: {fileID: 88488293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1768,7 +1768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89667281}
   - component: {fileID: 89667280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1971,7 +1971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122799164}
   - component: {fileID: 122799163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2218,7 +2218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137657965}
   - component: {fileID: 137657964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2386,7 +2386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138522106}
   - component: {fileID: 138522105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2470,7 +2470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141766203}
   - component: {fileID: 141766202}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2589,7 +2589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 145019728}
   - component: {fileID: 145019727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2673,7 +2673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169229918}
   - component: {fileID: 169229917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2757,7 +2757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172976066}
   - component: {fileID: 172976065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2841,7 +2841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177210754}
   - component: {fileID: 177210753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2925,7 +2925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179214557}
   - component: {fileID: 179214556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3009,7 +3009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181526983}
   - component: {fileID: 181526982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3178,7 +3178,7 @@ GameObject:
   - component: {fileID: 190254053}
   m_Layer: 0
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3215,7 +3215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192891410}
   - component: {fileID: 192891409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3383,7 +3383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206930873}
   - component: {fileID: 206930872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3467,7 +3467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208649816}
   - component: {fileID: 208649815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3719,7 +3719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226959973}
   - component: {fileID: 226959972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3887,7 +3887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229640981}
   - component: {fileID: 229640980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3971,7 +3971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232352015}
   - component: {fileID: 232352014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4055,7 +4055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 236556781}
   - component: {fileID: 236556780}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4139,7 +4139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238459289}
   - component: {fileID: 238459288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4307,7 +4307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258873164}
   - component: {fileID: 258873163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4391,7 +4391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260745527}
   - component: {fileID: 260745526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4475,7 +4475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268875208}
   - component: {fileID: 268875207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4559,7 +4559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269706787}
   - component: {fileID: 269706786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4643,7 +4643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289690795}
   - component: {fileID: 289690794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4727,7 +4727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294350312}
   - component: {fileID: 294350311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_38 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4811,7 +4811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297150132}
   - component: {fileID: 297150131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4895,7 +4895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298363899}
   - component: {fileID: 298363898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4979,7 +4979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 299192646}
   - component: {fileID: 299192645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5063,7 +5063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 299461062}
   - component: {fileID: 299461061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5231,7 +5231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 305584827}
   - component: {fileID: 305584826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_19 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5315,7 +5315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 306435680}
   - component: {fileID: 306435679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5399,7 +5399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 306440478}
   - component: {fileID: 306440477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5566,7 +5566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312318434}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5749,7 +5749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339569339}
   - component: {fileID: 339569338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,7 +5833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351148574}
   - component: {fileID: 351148573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5917,7 +5917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352436719}
   - component: {fileID: 352436718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6001,7 +6001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357835561}
   - component: {fileID: 357835560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6085,7 +6085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 360188206}
   - component: {fileID: 360188205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6169,7 +6169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365334290}
   - component: {fileID: 365334289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6253,7 +6253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 371669509}
   - component: {fileID: 371669508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6505,7 +6505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400774899}
   - component: {fileID: 400774898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6589,7 +6589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 401458182}
   - component: {fileID: 401458181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6757,7 +6757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 408901202}
   - component: {fileID: 408901201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_38 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6841,7 +6841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 423709826}
   - component: {fileID: 423709825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6925,7 +6925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426412123}
   - component: {fileID: 426412122}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7009,7 +7009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427857288}
   - component: {fileID: 427857287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7302,7 +7302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430655182}
   - component: {fileID: 430655181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7386,7 +7386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431091581}
   - component: {fileID: 431091580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7470,7 +7470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 439846567}
   - component: {fileID: 439846566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7554,7 +7554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443983557}
   - component: {fileID: 443983556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7638,7 +7638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 448556240}
   - component: {fileID: 448556239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7721,7 +7721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448605022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7792,7 +7792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455290862}
   - component: {fileID: 455290861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7876,7 +7876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456406381}
   - component: {fileID: 456406380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8044,7 +8044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478048763}
   - component: {fileID: 478048762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8128,7 +8128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485383652}
   - component: {fileID: 485383651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8212,7 +8212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 486464396}
   - component: {fileID: 486464395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8296,7 +8296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 489772771}
   - component: {fileID: 489772770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8464,7 +8464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500074419}
   - component: {fileID: 500074418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8632,7 +8632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511149438}
   - component: {fileID: 511149437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8716,7 +8716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517807834}
   - component: {fileID: 517807833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8937,7 +8937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523551059}
   - component: {fileID: 523551058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9105,7 +9105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528174300}
   - component: {fileID: 528174299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9189,7 +9189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532852567}
   - component: {fileID: 532852566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_19 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9357,7 +9357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538861045}
   - component: {fileID: 538861044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9441,7 +9441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553078359}
   - component: {fileID: 553078358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9609,7 +9609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564252083}
   - component: {fileID: 564252082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9693,7 +9693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567181367}
   - component: {fileID: 567181366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9777,7 +9777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567894995}
   - component: {fileID: 567894994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9861,7 +9861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 569104830}
   - component: {fileID: 569104829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9945,7 +9945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 569779832}
   - component: {fileID: 569779831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10029,7 +10029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576022727}
   - component: {fileID: 576022726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10113,7 +10113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576437213}
   - component: {fileID: 576437212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10197,7 +10197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587577064}
   - component: {fileID: 587577063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10281,7 +10281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587774363}
   - component: {fileID: 587774362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10365,7 +10365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 601514996}
   - component: {fileID: 601514995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10574,7 +10574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609889750}
   - component: {fileID: 609889749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10658,7 +10658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612786188}
   - component: {fileID: 612786187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10742,7 +10742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613852231}
   - component: {fileID: 613852230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10992,7 +10992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634680075}
   - component: {fileID: 634680074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11076,7 +11076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646262461}
   - component: {fileID: 646262460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11244,7 +11244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651817296}
   - component: {fileID: 651817295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11453,7 +11453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 661935193}
   - component: {fileID: 661935192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11705,7 +11705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692346147}
   - component: {fileID: 692346146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12041,7 +12041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703621818}
   - component: {fileID: 703621817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12125,7 +12125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704053367}
   - component: {fileID: 704053366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12209,7 +12209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705769780}
   - component: {fileID: 705769779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12293,7 +12293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715125965}
   - component: {fileID: 715125964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12377,7 +12377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722299512}
   - component: {fileID: 722299511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12461,7 +12461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 723848797}
   - component: {fileID: 723848796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12545,7 +12545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 725916750}
   - component: {fileID: 725916749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_19 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12629,7 +12629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744244960}
   - component: {fileID: 744244959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12713,7 +12713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745149660}
   - component: {fileID: 745149659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12797,7 +12797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745991933}
   - component: {fileID: 745991932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12881,7 +12881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746646640}
   - component: {fileID: 746646639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12965,7 +12965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755074780}
   - component: {fileID: 755074779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13049,7 +13049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758944761}
   - component: {fileID: 758944760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13216,7 +13216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774414738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13260,7 +13260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 784788313}
   - component: {fileID: 784788312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13344,7 +13344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795125981}
   - component: {fileID: 795125980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13428,7 +13428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795609845}
   - component: {fileID: 795609844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13596,7 +13596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803432684}
   - component: {fileID: 803432683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13764,7 +13764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812626868}
   - component: {fileID: 812626867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13848,7 +13848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816602752}
   - component: {fileID: 816602751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13932,7 +13932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819790603}
   - component: {fileID: 819790602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14016,7 +14016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822057845}
   - component: {fileID: 822057844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14268,7 +14268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 840302077}
   - component: {fileID: 840302076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14352,7 +14352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841848599}
   - component: {fileID: 841848598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14520,7 +14520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846488104}
   - component: {fileID: 846488103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14604,7 +14604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846583690}
   - component: {fileID: 846583689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14688,7 +14688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848540444}
   - component: {fileID: 848540443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_29 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14772,7 +14772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852792916}
   - component: {fileID: 852792915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14975,7 +14975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886471334}
   - component: {fileID: 886471333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15059,7 +15059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886696988}
   - component: {fileID: 886696987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15142,9 +15142,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897346049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grounds
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15182,7 +15182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 900660774}
   - component: {fileID: 900660773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_43 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15266,7 +15266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902919711}
   - component: {fileID: 902919710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15350,7 +15350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904053185}
   - component: {fileID: 904053184}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15938,7 +15938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964171875}
   - component: {fileID: 964171874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16106,7 +16106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972925546}
   - component: {fileID: 972925545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16190,7 +16190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988057216}
   - component: {fileID: 988057215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16358,7 +16358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 995448032}
   - component: {fileID: 995448031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform L 01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16561,7 +16561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020002732}
   - component: {fileID: 1020002731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_23 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16645,7 +16645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022201550}
   - component: {fileID: 1022201549}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16813,7 +16813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041119193}
   - component: {fileID: 1041119192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16897,7 +16897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045755130}
   - component: {fileID: 1045755129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17149,7 +17149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066177846}
   - component: {fileID: 1066177845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17233,7 +17233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068648724}
   - component: {fileID: 1068648723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17401,7 +17401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1078945270}
   - component: {fileID: 1078945269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17485,7 +17485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081178873}
   - component: {fileID: 1081178872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17569,7 +17569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081832150}
   - component: {fileID: 1081832149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17737,7 +17737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1097452814}
   - component: {fileID: 1097452813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17821,7 +17821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098482107}
   - component: {fileID: 1098482106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17905,7 +17905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100569191}
   - component: {fileID: 1100569190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17989,7 +17989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1111457310}
   - component: {fileID: 1111457309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18073,7 +18073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121197176}
   - component: {fileID: 1121197175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18157,7 +18157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128158813}
   - component: {fileID: 1128158812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18241,7 +18241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141157720}
   - component: {fileID: 1141157719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18325,7 +18325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147358534}
   - component: {fileID: 1147358533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18493,7 +18493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154973959}
   - component: {fileID: 1154973958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18576,7 +18576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156044568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18658,7 +18658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157092789}
   - component: {fileID: 1157092788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18742,7 +18742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1159366143}
   - component: {fileID: 1159366142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18826,7 +18826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1162991039}
   - component: {fileID: 1162991038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18910,7 +18910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167792750}
   - component: {fileID: 1167792749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18994,7 +18994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169899351}
   - component: {fileID: 1169899350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19078,7 +19078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182324738}
   - component: {fileID: 1182324737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19162,7 +19162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186054650}
   - component: {fileID: 1186054649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19414,7 +19414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202991086}
   - component: {fileID: 1202991085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19498,7 +19498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218123375}
   - component: {fileID: 1218123374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19666,7 +19666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223888732}
   - component: {fileID: 1223888731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19834,7 +19834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237279939}
   - component: {fileID: 1237279938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19918,7 +19918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242462874}
   - component: {fileID: 1242462873}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20002,7 +20002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243378531}
   - component: {fileID: 1243378530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20086,7 +20086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248412651}
   - component: {fileID: 1248412650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20170,7 +20170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255230620}
   - component: {fileID: 1255230619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20254,7 +20254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266598620}
   - component: {fileID: 1266598619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20590,7 +20590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280752022}
   - component: {fileID: 1280752021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20674,7 +20674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285530986}
   - component: {fileID: 1285530985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20758,7 +20758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285609871}
   - component: {fileID: 1285609870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21051,7 +21051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295205836}
   - component: {fileID: 1295205835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21135,7 +21135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295890538}
   - component: {fileID: 1295890537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21303,7 +21303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305273406}
   - component: {fileID: 1305273405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21471,7 +21471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308037306}
   - component: {fileID: 1308037305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21555,7 +21555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1313162577}
   - component: {fileID: 1313162576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21723,7 +21723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328969659}
   - component: {fileID: 1328969658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21807,7 +21807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334062247}
   - component: {fileID: 1334062246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21891,7 +21891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334302834}
   - component: {fileID: 1334302833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22143,7 +22143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344454878}
   - component: {fileID: 1344454877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22227,7 +22227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348321544}
   - component: {fileID: 1348321543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22395,7 +22395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355739101}
   - component: {fileID: 1355739100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22479,7 +22479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359040775}
   - component: {fileID: 1359040774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22562,7 +22562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361780856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22614,7 +22614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362822410}
   - component: {fileID: 1362822409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22698,7 +22698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1368598465}
   - component: {fileID: 1368598464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22782,7 +22782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372797299}
   - component: {fileID: 1372797298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22950,7 +22950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382830122}
   - component: {fileID: 1382830121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23034,7 +23034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1390502859}
   - component: {fileID: 1390502858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23118,7 +23118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398491791}
   - component: {fileID: 1398491790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23286,7 +23286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413128249}
   - component: {fileID: 1413128248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23370,7 +23370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415333181}
   - component: {fileID: 1415333180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_43 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23579,7 +23579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1417857665}
   - component: {fileID: 1417857664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23747,7 +23747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420259163}
   - component: {fileID: 1420259162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23831,7 +23831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429435267}
   - component: {fileID: 1429435266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23999,7 +23999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440338610}
   - component: {fileID: 1440338609}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24202,7 +24202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1442496868}
   - component: {fileID: 1442496867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24286,7 +24286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449194859}
   - component: {fileID: 1449194858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24454,7 +24454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1454205303}
   - component: {fileID: 1454205302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24538,7 +24538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465995854}
   - component: {fileID: 1465995853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24622,7 +24622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467103566}
   - component: {fileID: 1467103565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24874,7 +24874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479934311}
   - component: {fileID: 1479934310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24958,7 +24958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496230248}
   - component: {fileID: 1496230247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25042,7 +25042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497426069}
   - component: {fileID: 1497426068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25125,7 +25125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507937599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25210,7 +25210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511629912}
   - component: {fileID: 1511629911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25378,7 +25378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523544962}
   - component: {fileID: 1523544961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25546,7 +25546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536014334}
   - component: {fileID: 1536014333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25630,7 +25630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1537838075}
   - component: {fileID: 1537838074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25714,7 +25714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540542486}
   - component: {fileID: 1540542485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25798,7 +25798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1546429501}
   - component: {fileID: 1546429500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25882,7 +25882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1548527677}
   - component: {fileID: 1548527676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26050,7 +26050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556590806}
   - component: {fileID: 1556590805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26134,7 +26134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1563904989}
   - component: {fileID: 1563904988}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26302,7 +26302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569216188}
   - component: {fileID: 1569216187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26386,7 +26386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575217017}
   - component: {fileID: 1575217016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26470,7 +26470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578245922}
   - component: {fileID: 1578245921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26625,7 +26625,7 @@ Transform:
   m_GameObject: {fileID: 1579001597}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7000003, y: -0.90000004, z: 0}
+  m_LocalPosition: {x: -5.581, y: -0.972, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26719,6 +26719,12 @@ MonoBehaviour:
   dash: 0
   dashMultiplier: 4
   dashCooldown: 0
+  jump: 5
+  boxSize: {x: 0.88, y: 0.24}
+  castDistance: 0.7
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1579955837
 GameObject:
   m_ObjectHideFlags: 0
@@ -26897,7 +26903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598945172}
   - component: {fileID: 1598945171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26981,7 +26987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1600495594}
   - component: {fileID: 1600495593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27065,7 +27071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1607028999}
   - component: {fileID: 1607028998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27149,7 +27155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610037900}
   - component: {fileID: 1610037899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27233,7 +27239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613171809}
   - component: {fileID: 1613171808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27317,7 +27323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613456966}
   - component: {fileID: 1613456965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27401,7 +27407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1623771482}
   - component: {fileID: 1623771481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27569,7 +27575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634073016}
   - component: {fileID: 1634073015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27821,7 +27827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649679673}
   - component: {fileID: 1649679672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27905,7 +27911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1651533303}
   - component: {fileID: 1651533302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_32 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27989,7 +27995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1651965222}
   - component: {fileID: 1651965221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28073,7 +28079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654428737}
   - component: {fileID: 1654428736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28157,7 +28163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1658001056}
   - component: {fileID: 1658001055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28409,7 +28415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681193331}
   - component: {fileID: 1681193330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28493,7 +28499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683044651}
   - component: {fileID: 1683044650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28577,7 +28583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683725542}
   - component: {fileID: 1683725541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28745,7 +28751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700462142}
   - component: {fileID: 1700462141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform L 01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28913,7 +28919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709580217}
   - component: {fileID: 1709580216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29081,7 +29087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716646503}
   - component: {fileID: 1716646502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29166,7 +29172,7 @@ GameObject:
   - component: {fileID: 1717021188}
   - component: {fileID: 1717021187}
   - component: {fileID: 1717021189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29336,7 +29342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728624250}
   - component: {fileID: 1728624249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29629,7 +29635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741507238}
   - component: {fileID: 1741507237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29797,7 +29803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1753593646}
   - component: {fileID: 1753593645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29881,7 +29887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755262806}
   - component: {fileID: 1755262805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29965,7 +29971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1755535003}
   - component: {fileID: 1755535002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30049,7 +30055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768935546}
   - component: {fileID: 1768935545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30217,7 +30223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781450972}
   - component: {fileID: 1781450971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30385,7 +30391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1790876381}
   - component: {fileID: 1790876380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30637,7 +30643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805348459}
   - component: {fileID: 1805348458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30721,7 +30727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805765067}
   - component: {fileID: 1805765066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30805,7 +30811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1816319995}
   - component: {fileID: 1816319994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30973,7 +30979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830825425}
   - component: {fileID: 1830825424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31057,7 +31063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832361434}
   - component: {fileID: 1832361433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31141,7 +31147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833819733}
   - component: {fileID: 1833819732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31225,7 +31231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835563057}
   - component: {fileID: 1835563056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31309,7 +31315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1837781461}
   - component: {fileID: 1837781460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_43 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31477,7 +31483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1845244200}
   - component: {fileID: 1845244199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31645,7 +31651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850719756}
   - component: {fileID: 1850719755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31813,7 +31819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1859631697}
   - component: {fileID: 1859631696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31897,7 +31903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1863722033}
   - component: {fileID: 1863722032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31981,7 +31987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871305339}
   - component: {fileID: 1871305338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32065,7 +32071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880794270}
   - component: {fileID: 1880794269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_6 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32149,7 +32155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884606755}
   - component: {fileID: 1884606754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32233,7 +32239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886886449}
   - component: {fileID: 1886886448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32317,7 +32323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888140390}
   - component: {fileID: 1888140389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_21 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32401,7 +32407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888827740}
   - component: {fileID: 1888827739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_21 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32610,7 +32616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892874404}
   - component: {fileID: 1892874403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32694,7 +32700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895225655}
   - component: {fileID: 1895225654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32777,7 +32783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1903306163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32840,7 +32846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1903711101}
   - component: {fileID: 1903711100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32924,7 +32930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907777576}
   - component: {fileID: 1907777575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33008,7 +33014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914928060}
   - component: {fileID: 1914928059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33092,7 +33098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1921797779}
   - component: {fileID: 1921797778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33176,7 +33182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927083574}
   - component: {fileID: 1927083573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33344,7 +33350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1946223009}
   - component: {fileID: 1946223008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_38 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33428,7 +33434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1946583360}
   - component: {fileID: 1946583359}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33512,7 +33518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1950046773}
   - component: {fileID: 1950046772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33596,7 +33602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1950925864}
   - component: {fileID: 1950925863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33680,7 +33686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951203770}
   - component: {fileID: 1951203769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33764,7 +33770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964396102}
   - component: {fileID: 1964396101}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34060,7 +34066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992116106}
   - component: {fileID: 1992116105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34312,7 +34318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2002875273}
   - component: {fileID: 2002875272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34396,7 +34402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013224636}
   - component: {fileID: 2013224635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34648,7 +34654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2039591942}
   - component: {fileID: 2039591941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34732,7 +34738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042110229}
   - component: {fileID: 2042110228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34816,7 +34822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049786454}
   - component: {fileID: 2049786453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34900,7 +34906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057012801}
   - component: {fileID: 2057012800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34984,7 +34990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058388495}
   - component: {fileID: 2058388494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35236,7 +35242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085901825}
   - component: {fileID: 2085901824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35320,7 +35326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2096234322}
   - component: {fileID: 2096234321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_19 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35404,7 +35410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097488857}
   - component: {fileID: 2097488856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35572,7 +35578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105358835}
   - component: {fileID: 2105358834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_1 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35656,7 +35662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106316871}
   - component: {fileID: 2106316870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_8 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35741,7 +35747,7 @@ GameObject:
   - component: {fileID: 2121544059}
   m_Layer: 0
   m_Name: Moving Platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35778,7 +35784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132943799}
   - component: {fileID: 2132943798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_24 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35862,7 +35868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133660411}
   - component: {fileID: 2133660410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_7 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
