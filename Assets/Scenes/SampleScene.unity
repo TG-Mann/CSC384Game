@@ -1180,7 +1180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 69799626}
   - component: {fileID: 69799625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1348,7 +1348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 74629230}
   - component: {fileID: 74629229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1600,7 +1600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85895134}
   - component: {fileID: 85895135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1851,7 +1851,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116388832}
-  m_Layer: 0
+  - component: {fileID: 116388833}
+  m_Layer: 6
   m_Name: Platform_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1877,6 +1878,51 @@ Transform:
   - {fileID: 307321947}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &116388833
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116388831}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 41.698383, y: 6.2050805}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4558029, y: 0.8223486}
+  m_EdgeRadius: 0
 --- !u!1 &119912094
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,7 +2101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124601464}
   - component: {fileID: 124601463}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2302,7 +2348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138519025}
   - component: {fileID: 138519026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2553,7 +2599,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142366766}
-  m_Layer: 0
+  - component: {fileID: 142366767}
+  m_Layer: 6
   m_Name: Platform_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2579,6 +2626,51 @@ Transform:
   - {fileID: 202314700}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &142366767
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142366765}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -12.419378, y: -7.3736367}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4490356, y: 0.7163973}
+  m_EdgeRadius: 0
 --- !u!1 &145019726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,7 +3185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185924982}
   - component: {fileID: 185924983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3176,7 +3268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190254053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platforms
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3299,7 +3391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202314700}
   - component: {fileID: 202314699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3635,7 +3727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222959820}
   - component: {fileID: 222959821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3803,7 +3895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229230310}
   - component: {fileID: 229230309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4223,7 +4315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 249114958}
   - component: {fileID: 249114957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5147,7 +5239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301149299}
   - component: {fileID: 301149300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5483,7 +5575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307321947}
   - component: {fileID: 307321946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5566,6 +5658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312318434}
+  - component: {fileID: 312318435}
   m_Layer: 6
   m_Name: Ground_5
   m_TagString: Untagged
@@ -5655,6 +5748,83 @@ Transform:
   - {fileID: 229640981}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &312318435
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312318433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 34.298546, y: 1.4969883}
+      - {x: 34.254448, y: 4.5672827}
+      - {x: 31.283157, y: 4.557356}
+      - {x: 31.225773, y: 5.549609}
+      - {x: 29.326443, y: 5.528452}
+      - {x: 29.337162, y: 5.36899}
+      - {x: 25.354126, y: 5.4056377}
+      - {x: 25.352966, y: 6.4809875}
+      - {x: 19.38667, y: 6.45722}
+      - {x: 19.39671, y: 4.6087713}
+      - {x: 13.349766, y: 4.5637064}
+      - {x: 13.32394, y: 4.773247}
+      - {x: 7.4059544, y: 4.769168}
+      - {x: 7.4342575, y: 2.8782654}
+      - {x: 13.39801, y: 2.7494764}
+      - {x: 13.377323, y: 3.7312412}
+      - {x: 19.36615, y: 3.8168268}
+      - {x: 19.370396, y: 2.4797382}
+      - {x: 22.372421, y: 2.5104094}
+      - {x: 22.352127, y: 3.4709349}
+      - {x: 24.417725, y: 3.505616}
+      - {x: 24.347141, y: 4.4721546}
+      - {x: 25.361528, y: 4.466715}
+      - {x: 25.371422, y: 4.724393}
+      - {x: 29.299263, y: 4.5532618}
+      - {x: 29.304485, y: 2.6252909}
+      - {x: 30.217625, y: 2.6285067}
+      - {x: 30.23071, y: 0.5431042}
+      - {x: 31.232548, y: 0.5505209}
+      - {x: 31.267315, y: -0.3716898}
+      - {x: 35.290024, y: -0.39581275}
+      - {x: 35.26242, y: 1.531148}
+  m_UseDelaunayMesh: 0
 --- !u!1 &338383315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,7 +5835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338383316}
   - component: {fileID: 338383317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6337,7 +6507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380299429}
   - component: {fileID: 380299428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7095,7 +7265,7 @@ GameObject:
   - component: {fileID: 428278901}
   - component: {fileID: 428278900}
   - component: {fileID: 428278899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7176,7 +7346,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11403847, y: 0.07127452}
+  m_Offset: {x: 0.016918182, y: 0.755144}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7187,7 +7357,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9978447, y: 1.9978433}
+  m_Size: {x: 1.3867264, y: 0.6301043}
   m_EdgeRadius: 0
 --- !u!4 &428278902
 Transform:
@@ -7218,7 +7388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429698142}
   - component: {fileID: 429698143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7721,6 +7891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448605022}
+  - component: {fileID: 448605023}
   m_Layer: 6
   m_Name: Ground_4
   m_TagString: Untagged
@@ -7782,6 +7953,67 @@ Transform:
   - {fileID: 52828852}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &448605023
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448605021}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 37.37818, y: 8.6887455}
+      - {x: 37.34148, y: 6.70934}
+      - {x: 24.00776, y: 6.6565576}
+      - {x: 24.040249, y: 6.4118104}
+      - {x: 26.022642, y: 6.3993006}
+      - {x: 25.967863, y: 3.721591}
+      - {x: 29.012575, y: 3.7298613}
+      - {x: 28.973404, y: 5.7720656}
+      - {x: 30.19078, y: 5.7321553}
+      - {x: 30.27194, y: 2.7304227}
+      - {x: 33.21985, y: 2.7258825}
+      - {x: 33.157703, y: 5.833062}
+      - {x: 34.28498, y: 5.7698746}
+      - {x: 34.349266, y: 4.7069097}
+      - {x: 39.210064, y: 4.656972}
+      - {x: 39.31695, y: 8.663361}
+  m_UseDelaunayMesh: 0
 --- !u!1 &455290860
 GameObject:
   m_ObjectHideFlags: 0
@@ -7960,7 +8192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475653937}
   - component: {fileID: 475653936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8380,7 +8612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496022458}
   - component: {fileID: 496022457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8548,7 +8780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510171329}
   - component: {fileID: 510171328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9021,7 +9253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525247403}
   - component: {fileID: 525247402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10451,7 +10683,7 @@ GameObject:
   - component: {fileID: 605870706}
   - component: {fileID: 605870705}
   - component: {fileID: 605870704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10532,7 +10764,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11403847, y: 0.07127452}
+  m_Offset: {x: -0.012187958, y: 0.77696955}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10543,7 +10775,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9978447, y: 1.9978433}
+  m_Size: {x: 1.3576279, y: 0.5864532}
   m_EdgeRadius: 0
 --- !u!4 &605870707
 Transform:
@@ -11160,7 +11392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648543126}
   - component: {fileID: 648543125}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11330,7 +11562,7 @@ GameObject:
   - component: {fileID: 658373379}
   - component: {fileID: 658373378}
   - component: {fileID: 658373377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11411,7 +11643,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10199356, y: 0.06799698}
+  m_Offset: {x: -0.039577484, y: 0.7129929}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11422,7 +11654,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9519577, y: 1.9859557}
+  m_Size: {x: 1.3277664, y: 0.69596386}
   m_EdgeRadius: 0
 --- !u!4 &658373380
 Transform:
@@ -11537,7 +11769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682951535}
   - component: {fileID: 682951536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11621,7 +11853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 683851775}
   - component: {fileID: 683851776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11789,7 +12021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694385750}
   - component: {fileID: 694385749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform L 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11873,7 +12105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699663227}
   - component: {fileID: 699663226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11957,7 +12189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700373234}
   - component: {fileID: 700373233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13133,7 +13365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 771513563}
   - component: {fileID: 771513562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13216,6 +13448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774414738}
+  - component: {fileID: 774414739}
   m_Layer: 6
   m_Name: Ground_7
   m_TagString: Untagged
@@ -13250,6 +13483,51 @@ Transform:
   - {fileID: 758944761}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &774414739
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774414737}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 52.497566, y: -15.935976}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.0344696, y: 1.9639053}
+  m_EdgeRadius: 0
 --- !u!1 &784788311
 GameObject:
   m_ObjectHideFlags: 0
@@ -14184,7 +14462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 835516161}
   - component: {fileID: 835516160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14436,7 +14714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846458798}
   - component: {fileID: 846458799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14939,7 +15217,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 871350820}
-  m_Layer: 0
+  - component: {fileID: 871350821}
+  m_Layer: 6
   m_Name: Platform_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14965,6 +15244,51 @@ Transform:
   - {fileID: 1418407441}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &871350821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871350819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -12.508537, y: -2.9209437}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4367294, y: 0.6100502}
+  m_EdgeRadius: 0
 --- !u!1 &886471332
 GameObject:
   m_ObjectHideFlags: 0
@@ -15602,7 +15926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926530891}
   - component: {fileID: 926530892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15854,7 +16178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956610907}
   - component: {fileID: 956610906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16022,7 +16346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970486810}
   - component: {fileID: 970486811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16525,7 +16849,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1004516478}
-  m_Layer: 0
+  - component: {fileID: 1004516479}
+  m_Layer: 6
   m_Name: Platform_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16551,6 +16876,51 @@ Transform:
   - {fileID: 510171329}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1004516479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004516477}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.4109633, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4634924, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1020002730
 GameObject:
   m_ObjectHideFlags: 0
@@ -16729,7 +17099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040874571}
   - component: {fileID: 1040874572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16981,7 +17351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049502907}
   - component: {fileID: 1049502906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17317,7 +17687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076102747}
   - component: {fileID: 1076102748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18409,7 +18779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147802223}
   - component: {fileID: 1147802224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18576,6 +18946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156044568}
+  - component: {fileID: 1156044569}
   m_Layer: 6
   m_Name: Ground_6
   m_TagString: Untagged
@@ -18648,6 +19019,72 @@ Transform:
   - {fileID: 553078359}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1156044569
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156044567}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 64.999626, y: 2.7198162}
+      - {x: 61.976734, y: 2.7011805}
+      - {x: 62.012146, y: 3.6993012}
+      - {x: 59.007957, y: 3.726369}
+      - {x: 58.926003, y: 5.6607237}
+      - {x: 54.046333, y: 5.7063503}
+      - {x: 53.973934, y: 5.581861}
+      - {x: 52.92423, y: 5.5924525}
+      - {x: 52.92757, y: 5.3723207}
+      - {x: 53.457745, y: 5.363005}
+      - {x: 53.99143, y: 4.8173122}
+      - {x: 53.988235, y: 3.7388284}
+      - {x: 56.984947, y: 3.7165122}
+      - {x: 57.001247, y: 1.716211}
+      - {x: 53.00623, y: 1.6897873}
+      - {x: 53.010265, y: -1.2940822}
+      - {x: 59.012894, y: -1.2867858}
+      - {x: 58.969997, y: -0.27280283}
+      - {x: 60.997425, y: -0.28985763}
+      - {x: 60.98447, y: 0.7134135}
+      - {x: 64.95848, y: 0.7106159}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1157092787
 GameObject:
   m_ObjectHideFlags: 0
@@ -19582,7 +20019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1222297618}
   - component: {fileID: 1222297619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20338,7 +20775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270750557}
   - component: {fileID: 1270750556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20506,7 +20943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277057623}
   - component: {fileID: 1277057622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20844,7 +21281,7 @@ GameObject:
   - component: {fileID: 1293004389}
   - component: {fileID: 1293004388}
   - component: {fileID: 1293004387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20925,7 +21362,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11049271, y: 0.059497476}
+  m_Offset: {x: -0.048072815, y: 1.703197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20936,7 +21373,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0029526, y: 2.0029547}
+  m_Size: {x: 1.3787689, y: 1.004251}
   m_EdgeRadius: 0
 --- !u!4 &1293004390
 Transform:
@@ -20967,7 +21404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1293553639}
   - component: {fileID: 1293553640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21219,7 +21656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1296536336}
   - component: {fileID: 1296536335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22311,7 +22748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352923684}
   - component: {fileID: 1352923685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22562,6 +22999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1361780856}
+  - component: {fileID: 1361780857}
   m_Layer: 6
   m_Name: Ground_8
   m_TagString: Untagged
@@ -22604,6 +23042,51 @@ Transform:
   - {fileID: 2049786454}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1361780857
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361780855}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 112.96485, y: 2.8821545}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.789139, y: 2.01723}
+  m_EdgeRadius: 0
 --- !u!1 &1362822408
 GameObject:
   m_ObjectHideFlags: 0
@@ -23202,7 +23685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409176450}
   - component: {fileID: 1409176451}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23456,7 +23939,7 @@ GameObject:
   - component: {fileID: 1415428855}
   - component: {fileID: 1415428854}
   - component: {fileID: 1415428853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23537,7 +24020,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11403847, y: 0.07127452}
+  m_Offset: {x: -0.0198555, y: 0.72271395}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23548,7 +24031,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9978447, y: 1.9978433}
+  m_Size: {x: 1.3699417, y: 0.6949644}
   m_EdgeRadius: 0
 --- !u!4 &1415428856
 Transform:
@@ -23663,7 +24146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418407441}
   - component: {fileID: 1418407440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24082,7 +24565,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1441478161}
-  m_Layer: 0
+  - component: {fileID: 1441478162}
+  m_Layer: 6
   m_Name: Platform_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24108,6 +24592,51 @@ Transform:
   - {fileID: 496022458}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1441478162
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441478160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -28.506763, y: 4.12375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4617329, y: 0.91927624}
+  m_EdgeRadius: 0
 --- !u!1 &1442215338
 GameObject:
   m_ObjectHideFlags: 0
@@ -24370,7 +24899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450911535}
   - component: {fileID: 1450911534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25125,6 +25654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507937599}
+  - component: {fileID: 1507937600}
   m_Layer: 6
   m_Name: Ground_2
   m_TagString: Untagged
@@ -25200,6 +25730,58 @@ Transform:
   - {fileID: 2042110229}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1507937600
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507937598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 8.44389, y: 2.4579377}
+      - {x: 1.5800853, y: 2.4351764}
+      - {x: 1.5056412, y: 0.46158755}
+      - {x: -0.46980208, y: 0.4546702}
+      - {x: -0.5461662, y: -3.4009068}
+      - {x: 8.36224, y: -3.437073}
+      - {x: 8.36224, y: -3.437073}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1511629910
 GameObject:
   m_ObjectHideFlags: 0
@@ -25294,7 +25876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513506592}
   - component: {fileID: 1513506593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25462,7 +26044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1532291760}
   - component: {fileID: 1532291759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26690,7 +27272,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17674223, y: -0.16035709}
+  m_Offset: {x: -0.19104156, y: -0.16035709}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -26701,7 +27283,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.42206764, y: 0.66657954}
+  m_Size: {x: 0.16468173, y: 0.66657954}
   m_EdgeRadius: 0
 --- !u!114 &1579001602
 MonoBehaviour:
@@ -26735,7 +27317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1579955839}
   - component: {fileID: 1579955838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27491,7 +28073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633146916}
   - component: {fileID: 1633146917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27743,7 +28325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1649649298}
   - component: {fileID: 1649649297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform R 01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28247,7 +28829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661328568}
   - component: {fileID: 1661328569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28331,7 +28913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669292800}
   - component: {fileID: 1669292799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28835,7 +29417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700560844}
   - component: {fileID: 1700560843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29003,7 +29585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1710173750}
   - component: {fileID: 1710173751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29306,7 +29888,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1724909830}
-  m_Layer: 0
+  - component: {fileID: 1724909831}
+  m_Layer: 6
   m_Name: Platform_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29332,6 +29915,51 @@ Transform:
   - {fileID: 249114958}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1724909831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724909829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 23.104223, y: 10.714109}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3626137, y: 0.5320778}
+  m_EdgeRadius: 0
 --- !u!1 &1728624248
 GameObject:
   m_ObjectHideFlags: 0
@@ -29426,7 +30054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728687320}
   - component: {fileID: 1728687319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Village Props - Platform M 01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29512,7 +30140,7 @@ GameObject:
   - component: {fileID: 1735517746}
   - component: {fileID: 1735517745}
   - component: {fileID: 1735517744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29593,7 +30221,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11049271, y: 0.059497476}
+  m_Offset: {x: -0.027267456, y: 1.6927938}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -29604,7 +30232,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0029526, y: 2.0029547}
+  m_Size: {x: 1.4619904, y: 0.94183207}
   m_EdgeRadius: 0
 --- !u!4 &1735517747
 Transform:
@@ -29719,7 +30347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746387633}
   - component: {fileID: 1746387634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30307,7 +30935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782012849}
   - component: {fileID: 1782012848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30475,7 +31103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1798005451}
   - component: {fileID: 1798005450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_162 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31735,7 +32363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856685882}
   - component: {fileID: 1856685881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32493,7 +33121,7 @@ GameObject:
   - component: {fileID: 1889892646}
   - component: {fileID: 1889892645}
   - component: {fileID: 1889892644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platform 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32574,7 +33202,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11403847, y: 0.07127452}
+  m_Offset: {x: -0.0198555, y: 0.6285299}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -32585,7 +33213,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9978447, y: 1.9978433}
+  m_Size: {x: 1.4013443, y: 0.8833325}
   m_EdgeRadius: 0
 --- !u!4 &1889892647
 Transform:
@@ -32783,6 +33411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1903306163}
+  - component: {fileID: 1903306164}
   m_Layer: 6
   m_Name: Ground_3
   m_TagString: Untagged
@@ -32836,6 +33465,65 @@ Transform:
   - {fileID: 2106316871}
   m_Father: {fileID: 897346049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1903306164
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903306162}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.4592171, y: 1.5839415}
+      - {x: 2.6873417, y: 1.5582867}
+      - {x: 2.7968311, y: -0.4683342}
+      - {x: 5.6889706, y: -0.44029522}
+      - {x: 5.644541, y: 2.4371119}
+      - {x: -1.4519186, y: 2.4515998}
+      - {x: -1.4781151, y: 0.48132038}
+      - {x: -5.450018, y: 0.45165825}
+      - {x: -5.4256077, y: -0.29522896}
+      - {x: -3.4502926, y: -0.49308014}
+      - {x: -3.543375, y: -2.4185991}
+      - {x: -0.5479769, y: -2.5280285}
+      - {x: -0.5530704, y: -1.4350965}
+      - {x: 1.4797468, y: -1.4718313}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1903711099
 GameObject:
   m_ObjectHideFlags: 0
@@ -33854,7 +34542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972879361}
   - component: {fileID: 1972879360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_161 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34021,7 +34709,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979439615}
-  m_Layer: 0
+  - component: {fileID: 1979439616}
+  m_Layer: 6
   m_Name: Platfrom_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34056,6 +34745,51 @@ Transform:
   - {fileID: 1649649298}
   m_Father: {fileID: 190254053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1979439616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979439614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.6549473, y: 0.2558463}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.834751, y: 0.3421095}
+  m_EdgeRadius: 0
 --- !u!1 &1992116104
 GameObject:
   m_ObjectHideFlags: 0
@@ -34150,7 +34884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994777572}
   - component: {fileID: 1994777573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34234,7 +34968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994955766}
   - component: {fileID: 1994955767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34486,7 +35220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027193723}
   - component: {fileID: 2027193722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_160 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34570,7 +35304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031017925}
   - component: {fileID: 2031017924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TX Tileset Ground_163 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35158,7 +35892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080607720}
   - component: {fileID: 2080607721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35745,7 +36479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2121544059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moving Platforms
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -35952,7 +36686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2140452183}
   - component: {fileID: 2140452184}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MovingPlatform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
