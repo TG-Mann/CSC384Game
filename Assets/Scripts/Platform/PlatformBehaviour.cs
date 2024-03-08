@@ -39,26 +39,26 @@ public class VerticalPlatformBehaviour : MonoBehaviour
 
     private void movePLatform(){
         if (isVertical){
-            platform.position = new Vector2(transform.position.x, transform.position.y + speed * direction);
+            transform.position = new Vector2(transform.position.x, transform.position.y + speed * direction);
         } else{
-            platform.position = new Vector2(transform.position.x + speed * direction, transform.position.y);
+            transform.position = new Vector2(transform.position.x + speed * direction, transform.position.y);
         }
     }
 
     private void checkPosition(){
 
         if (isVertical){
-            if (platform.position.y > endPoint.y){
+            if (transform.position.y > endPoint.y){
                 direction *= -1;
             }
-            if (platform.position.y < startPoint.y){
+            if (transform.position.y < startPoint.y){
                 direction *= -1;
             }
         } else{
-            if (platform.position.x > endPoint.x){
+            if (transform.position.x > endPoint.x){
                 direction *= -1;
             }
-            if (platform.position.x < startPoint.x){
+            if (transform.position.x < startPoint.x){
                 direction *= -1;
             }
         }

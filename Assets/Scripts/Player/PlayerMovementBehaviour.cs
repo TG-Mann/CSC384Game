@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovementBehaviour : MonoBehaviour
@@ -20,16 +23,24 @@ public class PlayerMovementBehaviour : MonoBehaviour
     [SerializeField] private float castDistance;
 
     [SerializeField] private LayerMask groundLayer;
+
+    [SerializeField] private LayerMask HorizontalLayer;
+
     private Rigidbody2D rb;
 
     private float movement;
 
+    private SpriteRenderer sprite;
+
     private int numJumps;
+
+    private Boolean direction = true;
 
     void Awake()
     {
 
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
         
     }
 
@@ -38,19 +49,39 @@ public class PlayerMovementBehaviour : MonoBehaviour
         detectDash();
         
         numJumps = playerJump(numJumps);
+
+        movement = Input.GetAxis("Horizontal");
+
+        if (movement > 0 && !direction){
+            sprite.flipX = false;
+            direction = true;
+        } 
+        if (movement < 0 && direction){
+            sprite.flipX = true;
+            direction = false;
+        }
+
+ 
        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        movement = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed * movement, rb.velocity.y);
 
+        adjustGravity();
         updateDash();
 
-    }
+    } 
+
+    private void adjustGravity(){
+           if (rb.velocity.y < 0){
+            rb.gravityScale = 2;
+        } else{
+            rb.gravityScale = 1;
+        }
+    }    
 
     private void updateDash(){
 
@@ -90,7 +121,9 @@ public class PlayerMovementBehaviour : MonoBehaviour
         }
     }
 
+
     private bool isGrounded(int numJumps){
+       
         if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer)){
             numJumps = 0;
             return true;
