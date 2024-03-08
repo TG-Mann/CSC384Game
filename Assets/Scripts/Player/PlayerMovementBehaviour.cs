@@ -26,6 +26,8 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     [SerializeField] private LayerMask HorizontalLayer;
 
+     [SerializeField] private Animator animator; 
+
     private Rigidbody2D rb;
 
     private float movement;
@@ -33,6 +35,8 @@ public class PlayerMovementBehaviour : MonoBehaviour
     private SpriteRenderer sprite;
 
     private int numJumps;
+
+    private string playerState;
 
     private Boolean direction = true;
 
@@ -61,7 +65,12 @@ public class PlayerMovementBehaviour : MonoBehaviour
             direction = false;
         }
 
- 
+        updateState();
+        
+   
+
+        
+        
        
     }
 
@@ -74,6 +83,28 @@ public class PlayerMovementBehaviour : MonoBehaviour
         updateDash();
 
     } 
+
+    private void updateState(){
+        if (dash == 0){
+            if (rb.velocity.y > 0.5 || rb.velocity.y < -0.5){
+                
+                playerState = "Jump";
+             
+            } else{
+               
+                if (movement == 0){
+                    playerState = "Idle";
+                     
+                } else{
+                    playerState = "Walk";
+                     
+                }
+            }
+        } else{
+            playerState = "Dash";
+             
+        }
+    }
 
     private void adjustGravity(){
            if (rb.velocity.y < 0){
@@ -89,9 +120,12 @@ public class PlayerMovementBehaviour : MonoBehaviour
             dash -= 1;
             speed = speed/dashMultiplier;
             dashCooldown = 400;
+            animator.SetBool("Dash", false);
+           
         } 
         if (dash > 1){
             dash -= 1;
+            animator.SetBool("Dash", true);
         }
         if (dashCooldown != 0){
             dashCooldown -= 1;
@@ -108,13 +142,20 @@ public class PlayerMovementBehaviour : MonoBehaviour
 
     private int playerJump(int numJumps){
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded(numJumps)){
+            
+            
             rb.velocity = new Vector2(rb.velocity.x, jump);
             return numJumps = 1;
           
+        } else if(isGrounded(numJumps)){
+            
+            
         }
         if (Input.GetKeyDown(KeyCode.Space) && !isGrounded(numJumps) && numJumps == 1){
+            
             rb.velocity = new Vector2(rb.velocity.x, jump);
             return numJumps = 2;
+
         }
         else{
             return numJumps;
@@ -126,6 +167,16 @@ public class PlayerMovementBehaviour : MonoBehaviour
        
         if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer)){
             numJumps = 0;
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    private bool groundCheck(){
+       
+        if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer) || 
+            Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, HorizontalLayer)){
             return true;
         } else{
             return false;
