@@ -21,7 +21,7 @@ public class PlayerWalk : IPlayerState
         animator.SetBool("Walk", true);
         rb.gravityScale = 1;
         Debug.Log("Walk");
-        return;
+        
     }
 
     public void Exit(Player player)
@@ -50,6 +50,18 @@ public class PlayerWalk : IPlayerState
         }
         if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0){
             return new PlayerDash();
+        }
+        if(Input.GetKeyDown(KeyCode.Mouse0)){
+            return new PlayerAttachOne();
+        }
+        if(Input.GetKeyDown(KeyCode.Mouse1)){
+            return new PlayerAttachTwo();
+        }
+        if(Input.GetKeyDown(KeyCode.Q)){
+            return new PlayerBlock();
+        }
+        if(Input.GetKeyDown(KeyCode.LeftControl)){
+            return new PlayerRoll();
         }
         return null;
     }

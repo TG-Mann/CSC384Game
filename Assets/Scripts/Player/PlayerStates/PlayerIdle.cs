@@ -43,6 +43,15 @@ public class PlayerIdle : IPlayerState
         if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0){
             return new PlayerDash();
         }
+        if(Input.GetKeyDown(KeyCode.Mouse0)){
+            return new PlayerAttachOne();
+        }
+        if(Input.GetKeyDown(KeyCode.Mouse1)){
+            return new PlayerAttachTwo();
+        }
+        if(Input.GetKeyDown(KeyCode.Q)){
+            return new PlayerBlock();
+        }
 
         return null;
     }   

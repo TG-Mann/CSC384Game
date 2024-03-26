@@ -66,6 +66,9 @@ public class PlayerDash : IPlayerState
                 return new PlayerJump();
             }
         }
+        if(Input.GetKeyDown(KeyCode.Q)){
+            return new PlayerBlock();
+        }
         return null;
     }
 }

@@ -2,58 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDoubleJump : IPlayerState
+public class PlayerAttackAir : IPlayerState
 {
 
-    private float jump = 4;
+    private Animator animator; 
+    private Rigidbody2D rb;
     private float horizontalMovement;
     private float speed = 2;
-    private Animator animator; 
+    private BoxCollider2D bc;
+    private float originalBCX;
+    private float originalBCY;
 
-    private Rigidbody2D rb;
+    private int animationRunTime;
 
     public void Enter(Player player)
     {
-        Debug.Log("DoubleJump");
         animator = player.GetComponent<Animator>();
-        animator.SetBool("Jump", true);
         rb = player.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(rb.velocity.x, jump);
         rb.gravityScale = 1;
+        animator.SetBool("AttackAir", true);
+        bc = player.GetComponent<BoxCollider2D>();
+        originalBCX = bc.size.x;
+        originalBCY = bc.size.y;
+        bc.size = new Vector2(1f, bc.size.y);
+        Debug.Log("AttackAir");
     }
 
     public void Exit(Player player)
     {
-        animator.SetBool("Jump", false);
+        bc.size = new Vector2(originalBCX, originalBCY);
+        animator.SetBool("AttackAir", false);
     }
 
     public void frameUpdate()
     {
-         if (rb.velocity.y < 0){
-            rb.gravityScale = 2;
-        } 
         horizontalMovement = Input.GetAxis("Horizontal");
     }
 
     public void physicsUpdate()
     {
+        animationRunTime ++;
         rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
     }
 
     public IPlayerState Tick(Player player, Animator animator)
     {
-       
         if (horizontalMovement == 0 && player.isGrounded() && rb.velocity.y < 0.5){
             return new PlayerIdle();
         }
-         if (horizontalMovement != 0 && player.isGrounded()){
+        if (horizontalMovement != 0 && player.isGrounded()){
             return new PlayerWalk();
-        }
-        if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0){
-            return new PlayerDash();
-        }
-         if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Mouse0)){
-            return new PlayerAttackAir();
         }
         return null;
     }
