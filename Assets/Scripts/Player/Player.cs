@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
@@ -19,6 +20,10 @@ public class Player : MonoBehaviour
     private float horizontalMovement;
 
     private bool direction = true;
+
+    private bool isHit = false;
+
+    private int numLives = 3;
     private SpriteRenderer sprite;
 
     void Awake()
@@ -34,8 +39,10 @@ public class Player : MonoBehaviour
         setDirection();
 
         currentState.frameUpdate();
-
-        horizontalMovement = Input.GetAxis("Horizontal");
+        if (getLives() > 0){ // cant change direction when dead
+            horizontalMovement = Input.GetAxis("Horizontal");
+        }
+        
         
     }
 
@@ -47,6 +54,8 @@ public class Player : MonoBehaviour
         if (dashCooldown > 0){
             dashCooldown -= 1;
         }
+
+        Debug.Log(getLives());
 
     } 
     private void setDirection(){
@@ -83,7 +92,6 @@ public class Player : MonoBehaviour
        
         if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer) || 
             Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, HorizontalLayer)){
-            
             return true;
         } else{
             return false;
@@ -92,6 +100,22 @@ public class Player : MonoBehaviour
 
     private void OnDrawGizmos(){
         Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxSize);
+    }
+
+    public bool getHit(){
+        return isHit;
+    }
+
+    public void setHit(bool newHit){
+        isHit = newHit;
+    }
+
+    public void takeLife(){
+        numLives --;
+    }
+
+    public int getLives(){
+        return numLives;
     }
 
 

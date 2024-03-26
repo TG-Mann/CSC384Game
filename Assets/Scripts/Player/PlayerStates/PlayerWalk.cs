@@ -42,6 +42,9 @@ public class PlayerWalk : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (horizontalMovement == 0 && player.isGrounded()){
             return new PlayerIdle();
         }

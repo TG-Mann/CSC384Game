@@ -52,6 +52,9 @@ public class PlayerAttachOne : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (animationRunTime > 37){
             return new PlayerIdle();
         }

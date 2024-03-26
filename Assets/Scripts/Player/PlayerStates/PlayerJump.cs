@@ -48,6 +48,9 @@ public class PlayerJump : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (horizontalMovement == 0 && player.isGrounded() && rb.velocity.y < 0.5){
             return new PlayerIdle();
         }

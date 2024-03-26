@@ -58,6 +58,9 @@ public class PlayerRoll : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (animationRunTime > 30){
             return new PlayerWalk();  
         }

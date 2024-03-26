@@ -54,7 +54,9 @@ public class PlayerDash : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {
-       
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (dashRemaining == 0){
             if (horizontalMovement == 0){
                 return new PlayerIdle();

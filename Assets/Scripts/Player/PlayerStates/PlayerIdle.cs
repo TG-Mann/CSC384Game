@@ -32,6 +32,9 @@ public class PlayerIdle : IPlayerState
 
     public IPlayerState Tick(Player player, Animator animator)
     {   
+        if (player.getHit()){
+            return new PlayerHit();
+        }
         if (Input.GetAxis("Horizontal") != 0){
             return new PlayerWalk();
         }

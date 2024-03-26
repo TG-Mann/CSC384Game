@@ -25,4 +25,14 @@ public class FlyingEyeMovement : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    public void OnTriggerEnter2D(Collider2D collision){
+
+        if (collision.gameObject.CompareTag("Player")){
+            collision.GetComponent<Player>().setHit(true);
+            Destroy(this.gameObject);
+        } 
+        
+
+    }
 }
