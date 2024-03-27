@@ -21,7 +21,7 @@ public class PlayerDash : IPlayerState
         rb = player.GetComponent<Rigidbody2D>();
         animator = player.GetComponent<Animator>();
         animator.SetBool("Dash", true);
-        Debug.Log("Dash");
+        player.setPlayerState("Dash");
         
     }
 

@@ -20,7 +20,7 @@ public class PlayerWalk : IPlayerState
         animator = player.GetComponent<Animator>();
         animator.SetBool("Walk", true);
         rb.gravityScale = 1;
-        Debug.Log("Walk");
+        player.setPlayerState("Walk");
         
     }
 

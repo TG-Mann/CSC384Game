@@ -15,7 +15,7 @@ public class PlayerHit : IPlayerState
     public void Enter(Player player)
     {
         animator = player.GetComponent<Animator>();
-        Debug.Log("Hit");
+        player.setPlayerState("Hit");
         bc = player.GetComponent<BoxCollider2D>();
         animator.SetBool("Hit",true);
         player.takeLife();

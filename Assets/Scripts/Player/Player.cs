@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     private int dashCooldown = 0;
     private float horizontalMovement;
 
+    private string playerState;
+
     private bool direction = true;
 
     private bool isHit = false;
@@ -29,6 +31,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
+        setPlayerState("Idle");
     }
 
     void Update()
@@ -55,7 +58,6 @@ public class Player : MonoBehaviour
             dashCooldown -= 1;
         }
 
-        Debug.Log(getLives());
 
     } 
     private void setDirection(){
@@ -86,6 +88,14 @@ public class Player : MonoBehaviour
 
     public void setDashCalldown(int newCooldown){
         dashCooldown = newCooldown;
+    }
+
+    public string getPLayerState(){
+        return playerState;
+    }
+
+    public void setPlayerState(string newState){
+        playerState = newState;
     }
 
     public bool isGrounded(){

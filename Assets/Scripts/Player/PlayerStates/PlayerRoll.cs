@@ -35,7 +35,7 @@ public class PlayerRoll : IPlayerState
         offsetBCY = bc.offset.y;
         bc.size = new Vector2(bc.size.x, 0.4f);
         bc.offset = new Vector2(bc.offset.x, -0.1f);
-        Debug.Log("Roll");
+        player.setPlayerState("Roll");
     }
 
     public void Exit(Player player)

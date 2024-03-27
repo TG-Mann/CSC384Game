@@ -11,7 +11,7 @@ public class PlayerBlock : IPlayerState
     {
         animator = player.GetComponent<Animator>();
         animator.SetBool("Block",true);
-        Debug.Log("Block");
+        player.setPlayerState("Block");
         
     }
 

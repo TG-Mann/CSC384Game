@@ -16,7 +16,7 @@ public class PlayerJump : IPlayerState
 
     public void Enter(Player player)
     {
-        Debug.Log("Jump");
+        player.setPlayerState("Jump");
         rb = player.GetComponent<Rigidbody2D>();
         animator = player.GetComponent<Animator>();
         animator.SetBool("Jump", true);

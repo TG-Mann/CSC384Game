@@ -11,7 +11,7 @@ public class PlayerIdle : IPlayerState
 
     public void Enter(Player player)
     {
-        Debug.Log("Idle");
+        player.setPlayerState("Idle");
         return;
     }
 

@@ -14,7 +14,7 @@ public class PlayerDoubleJump : IPlayerState
 
     public void Enter(Player player)
     {
-        Debug.Log("DoubleJump");
+        player.setPlayerState("DoubleJump");
         animator = player.GetComponent<Animator>();
         animator.SetBool("Jump", true);
         rb = player.GetComponent<Rigidbody2D>();

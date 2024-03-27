@@ -25,7 +25,7 @@ public class PlayerAttackAir : IPlayerState
         originalBCX = bc.size.x;
         originalBCY = bc.size.y;
         bc.size = new Vector2(1f, bc.size.y);
-        Debug.Log("AttackAir");
+        player.setPlayerState("AttackAir");
     }
 
     public void Exit(Player player)

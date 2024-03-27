@@ -29,7 +29,7 @@ public class PlayerAttachTwo : IPlayerState
         originalBCX = bc.size.x;
         originalBCY = bc.size.y;
         bc.size = new Vector2(1.2f, bc.size.y);
-        Debug.Log("AttackTwo");
+        player.setPlayerState("AttackTwo");
     }
 
     public void Exit(Player player)
