@@ -17,6 +17,8 @@ public class EnemyOne : MonoBehaviour
 
     bool dead;
 
+    private int timeSinceAttack = 1000;
+
     void Awake()
     {
         player = GameObject.FindWithTag("Player");
@@ -29,12 +31,13 @@ public class EnemyOne : MonoBehaviour
     {
         updateState();
         currentState.frameUpdate();
-        print(distanceToPlayer());
+        
     }
 
     void FixedUpdate()
     {
         currentState.physicsUpdate();
+        timeSinceAttack ++;
     }
 
     private void updateState(){
@@ -54,6 +57,11 @@ public class EnemyOne : MonoBehaviour
             string playerState = collision.GetComponent<Player>().getPLayerState();
             if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir"){
                 dead = true;
+                print("Death");
+            }
+            if (enemyOneState == "Attack"){
+                print("{Player");
+                collision.GetComponent<Player>().setHit(true);
             }
         }
     }
@@ -76,5 +84,13 @@ public class EnemyOne : MonoBehaviour
             return true;
         } 
         return false;
+    }
+
+    public int getTimeSinceAttack(){
+        return timeSinceAttack;
+    }
+
+    public void setTimeSinceAttack(int newTime){
+        timeSinceAttack = newTime;
     }
 }

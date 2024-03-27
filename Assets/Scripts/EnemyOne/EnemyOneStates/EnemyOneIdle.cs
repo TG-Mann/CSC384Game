@@ -26,7 +26,7 @@ public class EnemyOneIdle : IEnemyOneState
 
     public IEnemyOneState Tick(EnemyOne enemyOne, Animator animator)
     {
-        if (enemyOne.distanceToPlayer() < 10 ){
+        if (enemyOne.distanceToPlayer() < 20 && enemyOne.getTimeSinceAttack() > 50){
             return new EnemyOneWalk();
         }
         return null;

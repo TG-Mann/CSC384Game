@@ -27,6 +27,9 @@ public class EnemyOneWalk : IEnemyOneState
         animator.SetBool("isClose", true);
         direction = 1;
         sprite = enemyOne.GetComponent<SpriteRenderer>();
+        if (!enemyOne.isDead()){
+            sprite.flipX = false;
+        }
     }
 
     public void Exit(EnemyOne enemyOne)
@@ -52,6 +55,9 @@ public class EnemyOneWalk : IEnemyOneState
         }
         if (enemyOne.isDead()){
             return new EnemyOneDead();
+        }
+        if (enemyOne.distanceToPlayer() < 2.5 && enemyOne.getTimeSinceAttack() > 50){
+            return new EnemyOneAttack();
         }
         return null;
     }
