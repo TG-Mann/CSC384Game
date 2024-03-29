@@ -11,8 +11,12 @@ public class Player : MonoBehaviour
     private IPlayerState currentState = new PlayerIdle();
 
     [SerializeField] private Vector2 boxSize;
+    [SerializeField] private Vector2 canMoveSize;
     [SerializeField] private float castDistance;
+    [SerializeField] private float canMoveDistance;
     [SerializeField] private LayerMask groundLayer;
+
+    [SerializeField] private LayerMask verticalLayer;
     [SerializeField] private LayerMask HorizontalLayer;
     [SerializeField] private Animator animator; 
 
@@ -108,8 +112,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    
+
+
     private void OnDrawGizmos(){
         Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxSize);
+        Gizmos.DrawWireCube(transform.position-transform.up * canMoveDistance, canMoveSize);
     }
 
     public bool getHit(){

@@ -12,6 +12,7 @@ public class PlayerWalk : IPlayerState
 
     private float horizontalMovement;
 
+    private Player self;
     private float speed = 2;
 
     public void Enter(Player player)
@@ -20,6 +21,7 @@ public class PlayerWalk : IPlayerState
         animator = player.GetComponent<Animator>();
         animator.SetBool("Walk", true);
         rb.gravityScale = 1;
+        self = player;
         player.setPlayerState("Walk");
         
     }
@@ -37,7 +39,11 @@ public class PlayerWalk : IPlayerState
 
     public void physicsUpdate()
     {
+        
         rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        
+    
+   
     }
 
     public IPlayerState Tick(Player player, Animator animator)
@@ -48,10 +54,10 @@ public class PlayerWalk : IPlayerState
         if (horizontalMovement == 0 && player.isGrounded()){
             return new PlayerIdle();
         }
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space) ){
             return new PlayerJump();
         }
-        if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0){
+        if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0  ){
             return new PlayerDash();
         }
         if(Input.GetKeyDown(KeyCode.Mouse0)){

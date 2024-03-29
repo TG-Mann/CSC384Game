@@ -14,12 +14,15 @@ public class PlayerJump : IPlayerState
 
     private Rigidbody2D rb;
 
+    Player self;
+
     public void Enter(Player player)
     {
         player.setPlayerState("Jump");
         rb = player.GetComponent<Rigidbody2D>();
         animator = player.GetComponent<Animator>();
         animator.SetBool("Jump", true);
+        self = player;
         rb.velocity = new Vector2(rb.velocity.x, jump);
         rb.gravityScale = 1;
             
@@ -35,8 +38,11 @@ public class PlayerJump : IPlayerState
         if (rb.velocity.y < 0){
             rb.gravityScale = 2;
         } 
-            
+        
+        
         horizontalMovement = Input.GetAxis("Horizontal");
+        
+       
         
     }
 
@@ -44,7 +50,9 @@ public class PlayerJump : IPlayerState
     {
         
         rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        
     }
+        
 
     public IPlayerState Tick(Player player, Animator animator)
     {

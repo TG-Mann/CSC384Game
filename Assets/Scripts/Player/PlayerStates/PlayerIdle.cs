@@ -35,7 +35,7 @@ public class PlayerIdle : IPlayerState
         if (player.getHit()){
             return new PlayerHit();
         }
-        if (Input.GetAxis("Horizontal") != 0){
+        if (Input.GetAxis("Horizontal") != 0 ){
             return new PlayerWalk();
         }
         
@@ -43,7 +43,7 @@ public class PlayerIdle : IPlayerState
             return new PlayerJump();
         }
         
-        if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0){
+        if(Input.GetKeyDown(KeyCode.LeftShift) && player.getDashCalldown() == 0 ){
             return new PlayerDash();
         }
         if(Input.GetKeyDown(KeyCode.Mouse0)){

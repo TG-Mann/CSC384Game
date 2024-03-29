@@ -57,10 +57,8 @@ public class EnemyOne : MonoBehaviour
             string playerState = collision.GetComponent<Player>().getPLayerState();
             if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir"){
                 dead = true;
-                print("Death");
             }
             if (enemyOneState == "Attack"){
-                print("{Player");
                 collision.GetComponent<Player>().setHit(true);
             }
         }
