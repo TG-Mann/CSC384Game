@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask HorizontalLayer;
     [SerializeField] private Animator animator; 
 
+    [SerializeField] private PhysicsMaterial2D grip;
+
     private int dashCooldown = 0;
     private float horizontalMovement;
 
