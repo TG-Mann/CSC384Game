@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - HorizontalPlatform
   - Enemy
+  - SmallItem
+  - BigItem
   layers:
   - Default
   - TransparentFX

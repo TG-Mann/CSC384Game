@@ -14,7 +14,6 @@ public class PlayerAttachOne : IPlayerState
 
     private float horizontalMovement;
 
-    private float speed = 2;
 
     private float originalBCX;
     private float originalBCY;

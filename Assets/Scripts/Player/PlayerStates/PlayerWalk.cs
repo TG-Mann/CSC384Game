@@ -13,7 +13,6 @@ public class PlayerWalk : IPlayerState
     private float horizontalMovement;
 
     private Player self;
-    private float speed = 2;
 
     public void Enter(Player player)
     {
@@ -40,7 +39,7 @@ public class PlayerWalk : IPlayerState
     public void physicsUpdate()
     {
         
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
         
     
    

@@ -30,7 +30,7 @@ public class FlyingEyeMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player")){
             string playerState = collision.GetComponent<Player>().getPLayerState();
-            if (playerState != "AttackOne" && playerState != "AttackTwo"  && playerState != "AttackAir"){
+            if (playerState != "AttackOne" && playerState != "AttackTwo"  && playerState != "AttackAir" && !collision.GetComponent<PlayerCollision>().getIsBig()){
                 collision.GetComponent<Player>().setHit(true);
             }
             Destroy(this.gameObject);

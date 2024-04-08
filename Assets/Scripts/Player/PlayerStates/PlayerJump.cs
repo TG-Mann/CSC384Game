@@ -6,15 +6,12 @@ using UnityEngine;
 
 public class PlayerJump : IPlayerState
 {
-    private float jump = 4;
     private float horizontalMovement;
     private Animator animator; 
 
-    private float speed = 2;
-
     private Rigidbody2D rb;
 
-    Player self;
+    private Player self;
 
     public void Enter(Player player)
     {
@@ -23,7 +20,7 @@ public class PlayerJump : IPlayerState
         animator = player.GetComponent<Animator>();
         animator.SetBool("Jump", true);
         self = player;
-        rb.velocity = new Vector2(rb.velocity.x, jump);
+        rb.velocity = new Vector2(rb.velocity.x, player.getJump());
         rb.gravityScale = 1;
             
     }
@@ -49,7 +46,7 @@ public class PlayerJump : IPlayerState
     public void physicsUpdate()
     {
         
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
         
     }
         

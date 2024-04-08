@@ -8,12 +8,13 @@ public class PlayerAttackAir : IPlayerState
     private Animator animator; 
     private Rigidbody2D rb;
     private float horizontalMovement;
-    private float speed = 2;
     private BoxCollider2D bc;
     private float originalBCX;
     private float originalBCY;
 
     private int animationRunTime;
+
+    Player self;
 
     public void Enter(Player player)
     {
@@ -24,6 +25,7 @@ public class PlayerAttackAir : IPlayerState
         bc = player.GetComponent<BoxCollider2D>();
         originalBCX = bc.size.x;
         originalBCY = bc.size.y;
+        self = player;
         bc.size = new Vector2(1f, bc.size.y);
         player.setPlayerState("AttackAir");
     }
@@ -42,7 +44,7 @@ public class PlayerAttackAir : IPlayerState
     public void physicsUpdate()
     {
         animationRunTime ++;
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
     }
 
     public IPlayerState Tick(Player player, Animator animator)

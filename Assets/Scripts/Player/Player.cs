@@ -22,6 +22,12 @@ public class Player : MonoBehaviour
 
     [SerializeField] private PhysicsMaterial2D grip;
 
+    [SerializeField] private PlayerCollision playerCollision;
+
+    private int speed = 2;
+
+    private int jump = 4;
+
     private int dashCooldown = 0;
     private float horizontalMovement;
 
@@ -32,6 +38,8 @@ public class Player : MonoBehaviour
     private bool isHit = false;
 
     private int numLives = 3;
+
+    private float extra = 1;
     private SpriteRenderer sprite;
 
     void Awake()
@@ -92,6 +100,22 @@ public class Player : MonoBehaviour
         return dashCooldown;
     }
 
+    public int getSpeed(){
+        return speed;
+    }
+
+    public void setSpeed(int newSpeed){
+        speed = newSpeed;
+    }
+
+    public int getJump(){
+        return jump;
+    }
+
+    public void setJump(int newJump){
+        jump = newJump;
+    }
+
     public void setDashCalldown(int newCooldown){
         dashCooldown = newCooldown;
     }
@@ -105,21 +129,25 @@ public class Player : MonoBehaviour
     }
 
     public bool isGrounded(){
-       
-        if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, groundLayer) || 
-            Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance, HorizontalLayer)){
+        
+        if (playerCollision.getIsBig()){
+           extra = 2;
+        } else if (playerCollision.getIsSmall()){
+            extra = 0.5f;
+        } else{
+            extra = 1;
+        }
+        if (Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance * extra, groundLayer) || 
+            Physics2D.BoxCast(transform.position, boxSize, 0 , -transform.up, castDistance * extra, HorizontalLayer)){
             return true;
         } else{
             return false;
         }
     }
 
-    
-
 
     private void OnDrawGizmos(){
-        Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxSize);
-        Gizmos.DrawWireCube(transform.position-transform.up * canMoveDistance, canMoveSize);
+        Gizmos.DrawWireCube(transform.position-transform.up * castDistance * extra, boxSize);
     }
 
     public bool getHit(){

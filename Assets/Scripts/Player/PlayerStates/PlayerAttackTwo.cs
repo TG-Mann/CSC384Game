@@ -14,7 +14,7 @@ public class PlayerAttachTwo : IPlayerState
 
     private float horizontalMovement;
 
-    private float speed = 2;
+    Player self;
 
     private float originalBCX;
     private float originalBCY;
@@ -28,6 +28,7 @@ public class PlayerAttachTwo : IPlayerState
         bc = player.GetComponent<BoxCollider2D>();
         originalBCX = bc.size.x;
         originalBCY = bc.size.y;
+        self = player;
         bc.size = new Vector2(1.2f, bc.size.y);
         player.setPlayerState("AttackTwo");
     }
@@ -47,7 +48,7 @@ public class PlayerAttachTwo : IPlayerState
     public void physicsUpdate()
     {
         animationRunTime ++;
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
     }
 
     public IPlayerState Tick(Player player, Animator animator)

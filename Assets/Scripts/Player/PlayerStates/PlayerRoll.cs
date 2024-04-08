@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class PlayerRoll : IPlayerState
@@ -13,7 +14,6 @@ public class PlayerRoll : IPlayerState
 
     private float horizontalMovement;
 
-    private float speed = 2;
 
     private float originalBCX;
     private float originalBCY;
@@ -21,7 +21,7 @@ public class PlayerRoll : IPlayerState
     private float offsetBCX;
     private float offsetBCY;
 
-
+    private Player self;
     public void Enter(Player player)
     {
         animator = player.GetComponent<Animator>();
@@ -33,7 +33,8 @@ public class PlayerRoll : IPlayerState
         originalBCY = bc.size.y;
         offsetBCX = bc.offset.x;
         offsetBCY = bc.offset.y;
-        bc.size = new Vector2(bc.size.x, 0.4f);
+        bc.size = new Vector2(bc.size.x, bc.size.y * 0.6f);
+        self = player;
         bc.offset = new Vector2(bc.offset.x, -0.1f);
         player.setPlayerState("Roll");
     }
@@ -53,7 +54,7 @@ public class PlayerRoll : IPlayerState
     public void physicsUpdate()
     {
         animationRunTime ++;
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
     }
 
     public IPlayerState Tick(Player player, Animator animator)

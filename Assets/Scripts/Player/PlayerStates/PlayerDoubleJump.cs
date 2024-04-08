@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerDoubleJump : IPlayerState
 {
 
-    private float jump = 4;
     private float horizontalMovement;
-    private float speed = 2;
     private Animator animator; 
+
+    private Player self;
 
     private Rigidbody2D rb;
 
@@ -18,8 +18,9 @@ public class PlayerDoubleJump : IPlayerState
         animator = player.GetComponent<Animator>();
         animator.SetBool("Jump", true);
         rb = player.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(rb.velocity.x, jump);
+        rb.velocity = new Vector2(rb.velocity.x, player.getJump());
         rb.gravityScale = 1;
+        self = player;
     }
 
     public void Exit(Player player)
@@ -37,7 +38,7 @@ public class PlayerDoubleJump : IPlayerState
 
     public void physicsUpdate()
     {
-        rb.velocity = new Vector2(speed * horizontalMovement, rb.velocity.y);
+        rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
     }
 
     public IPlayerState Tick(Player player, Animator animator)
