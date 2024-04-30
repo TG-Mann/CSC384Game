@@ -1,64 +1,73 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerCollision : MonoBehaviour
 {
-
     private Rigidbody2D rb;
-
-    private bool isBig;
-    private bool isSmall;
 
     [SerializeField] Player player;
 
     private SpriteRenderer spriteRenderer;
 
+    private bool hasInvicibleItem = false;
+    private bool hasLargeItem = false;
+    private bool hasSmallItem = false;
+
+
     void Awake()
     {
-
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-      
     }
 
     void Update(){
-
+        if (hasLargeItem && Input.GetKeyUp(KeyCode.Alpha2)){
+            new GrowItem().Activate(spriteRenderer);
+            StartCoroutine("Wait");
+            hasLargeItem = false;
+        }
+        if (hasSmallItem && Input.GetKeyUp(KeyCode.Alpha3)){
+            new ShrinkItem().Activate(spriteRenderer);
+            StartCoroutine("Wait");
+            hasSmallItem = false;
+        }
+        if (hasInvicibleItem && Input.GetKeyUp(KeyCode.Alpha1)){
+            new InvisibleItem().Activate(spriteRenderer);
+            StartCoroutine("Wait");
+            hasInvicibleItem = false;
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("HorizontalPlatform")){
-
            this.transform.parent = collision.transform;
-          
+   
         } 
-
         if (collision.gameObject.tag == "SmallItem"){
-            playerSmall();
-            collision.gameObject.SetActive(false);
+            if (!hasSmallItem){
+                collision.gameObject.SetActive(false);
+                hasSmallItem = true;
+            }
+            
         }
         if (collision.gameObject.tag == "BigItem"){
-            playerBig();
-            collision.gameObject.SetActive(false);
+            if (!hasLargeItem){
+                collision.gameObject.SetActive(false);
+                hasLargeItem = true;
+            }
+            
         }
-    }
-
-    private void playerSmall(){
-        spriteRenderer.transform.localScale = new Vector2(0.8f,0.8f);
-        isSmall = true;
-        player.setSpeed(5);
-        player.setJump(6);
-        StartCoroutine("Wait");
-    }
-
-     private void playerBig(){
-        spriteRenderer.transform.localScale = new Vector2(3f,3f);
-        isBig = true;
-        player.setSpeed(1);
-        StartCoroutine("Wait");
+        if (collision.gameObject.tag == "InvisibleItem"){
+            if (!hasInvicibleItem){
+                collision.gameObject.SetActive(false);
+                hasInvicibleItem = true;
+            }
+            
+        }
     }
 
     public void OnCollisionExit2D(Collision2D collision){
@@ -67,20 +76,20 @@ public class PlayerCollision : MonoBehaviour
         }
     }
 
-      IEnumerator Wait(){
+    public bool getHasInvicibleItem(){
+        return hasInvicibleItem;
+    }
+     public bool getHasSmallItem(){
+        return hasSmallItem;
+    }
+     public bool getHasLargeItem(){
+        return hasLargeItem;
+    }
+
+    IEnumerator Wait(){
         yield return new WaitForSeconds(4f);
-        spriteRenderer.transform.localScale = new Vector2(1.5f, 1.5f);
-        isSmall = false;
-        isBig = false;
-        player.setSpeed(2);
-        player.setJump(4);
+        new NormalItem().Activate(spriteRenderer);
     }
 
-    public bool getIsBig(){
-        return isBig;
-    }
 
-    public bool getIsSmall(){
-        return isSmall;
-    }
 }

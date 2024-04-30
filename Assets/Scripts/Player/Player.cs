@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask HorizontalLayer;
     [SerializeField] private Animator animator; 
 
+    public enum PlayerSize{small, normal, large}
+
+    private PlayerSize playerSize = PlayerSize.normal;
+
     [SerializeField] private PhysicsMaterial2D grip;
 
     [SerializeField] private PlayerCollision playerCollision;
@@ -32,6 +36,8 @@ public class Player : MonoBehaviour
     private float horizontalMovement;
 
     private string playerState;
+
+    private bool isInvisible = false;
 
     private bool direction = true;
 
@@ -130,9 +136,9 @@ public class Player : MonoBehaviour
 
     public bool isGrounded(){
         
-        if (playerCollision.getIsBig()){
+        if (playerSize == PlayerSize.large){
            extra = 2;
-        } else if (playerCollision.getIsSmall()){
+        } else if (playerSize == PlayerSize.small){
             extra = 0.5f;
         } else{
             extra = 1;
@@ -145,6 +151,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void setPlayerSize(PlayerSize newSize){
+        playerSize = newSize;
+    }
+
+    public PlayerSize getPlayerSize(){
+        return playerSize;
+    }
 
     private void OnDrawGizmos(){
         Gizmos.DrawWireCube(transform.position-transform.up * castDistance * extra, boxSize);
@@ -164,6 +177,14 @@ public class Player : MonoBehaviour
 
     public int getLives(){
         return numLives;
+    }
+
+    public bool getIsInvisible(){
+        return isInvisible;
+    }
+
+    public void setIsInvisible(bool newInvicible){
+        isInvisible = newInvicible;
     }
 
 

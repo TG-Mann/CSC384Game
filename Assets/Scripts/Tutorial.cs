@@ -10,7 +10,7 @@ public class Tutorial : MonoBehaviour
 
     [SerializeField] Player player;
 
-    bool playerTutorial = false; // to enable / disable tutorial
+    bool playerTutorial = true; // to enable / disable tutorial
 
     bool changeMessage = true;
 

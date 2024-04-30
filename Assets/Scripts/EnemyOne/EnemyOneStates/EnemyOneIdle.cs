@@ -29,6 +29,9 @@ public class EnemyOneIdle : IEnemyOneState
         if (enemyOne.distanceToPlayer() < 20 && enemyOne.getTimeSinceAttack() > 50){
             return new EnemyOneWalk();
         }
+        if (enemyOne.isDead()){
+            return new EnemyOneDead();
+        }
         return null;
     }
 }

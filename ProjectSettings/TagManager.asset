@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - SmallItem
   - BigItem
+  - InvisibleItem
   layers:
   - Default
   - TransparentFX

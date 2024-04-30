@@ -13,7 +13,7 @@ public class EnemyOne : MonoBehaviour
 
     private string enemyOneState;
 
-    GameObject player;
+    Player player;
 
     bool dead;
 
@@ -21,7 +21,7 @@ public class EnemyOne : MonoBehaviour
 
     void Awake()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindAnyObjectByType<Player>();
         sprite = GetComponent<SpriteRenderer>();
         setEnemyOneState("Idle");
     }
@@ -55,11 +55,11 @@ public class EnemyOne : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision){
         if (collision.gameObject.CompareTag("Player")){
             string playerState = collision.GetComponent<Player>().getPLayerState();
-            if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir" || collision.GetComponent<PlayerCollision>().getIsBig()){
+            if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir" || collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large){
                 dead = true;
             }
             if (enemyOneState == "Attack"){
-                if (!collision.GetComponent<PlayerCollision>().getIsBig()){
+                if (!(collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large) && !collision.GetComponent<Player>().getIsInvisible()){
                      collision.GetComponent<Player>().setHit(true);
                 }
                 
@@ -68,8 +68,10 @@ public class EnemyOne : MonoBehaviour
     }
 
     public float distanceToPlayer(){
+        if (player.getIsInvisible()){
+            return 1000;
+        } 
         return Vector2.Distance(transform.position, player.transform.position);
-       
     }
 
     public string getEnemyOneState(){
