@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void quitGame(){
-        UnityEditor.EditorApplication.isPlaying = false; // remove in built game
+        //UnityEditor.EditorApplication.isPlaying = false; // remove in built game
         Application.Quit();
     }
 }

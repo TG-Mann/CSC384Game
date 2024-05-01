@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
 
@@ -33,7 +34,10 @@ public class FlyingEyeMovement : MonoBehaviour
             if (playerState != "AttackOne" && playerState != "AttackTwo"  && playerState != "AttackAir" && !(collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large) && !collision.GetComponent<Player>().getIsInvisible()){
                 collision.GetComponent<Player>().setHit(true);
             }
-            Destroy(this.gameObject);
+            if (!collision.GetComponent<Player>().getIsInvisible()){
+                Destroy(this.gameObject);
+            }
+           
         } 
         
 

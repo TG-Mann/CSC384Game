@@ -10,6 +10,7 @@ TagManager:
   - SmallItem
   - BigItem
   - InvisibleItem
+  - Death
   layers:
   - Default
   - TransparentFX
