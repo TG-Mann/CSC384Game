@@ -86,6 +86,16 @@ public class PlayerCollision : MonoBehaviour
         return hasLargeItem;
     }
 
+    public void setHasInvicibleItem(){
+        hasInvicibleItem = true;
+    }
+     public void setHasSmallItem(){
+        hasSmallItem = true;
+    }
+     public void setHasLargeItem(){
+        hasLargeItem = true;
+    }
+
     IEnumerator Wait(){
         yield return new WaitForSeconds(4f);
         new NormalItem().Activate(spriteRenderer);

@@ -10,7 +10,7 @@ public class Tutorial : MonoBehaviour
 
     [SerializeField] Player player;
 
-    bool playerTutorial = true; // to enable / disable tutorial
+    int playerTutorial; // to enable / disable tutorial
 
     bool changeMessage = true;
 
@@ -23,7 +23,7 @@ public class Tutorial : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerTutorial){
+        if (playerTutorial == 1){
 
             if (changeMessage){
                 for (int i = 0; i < tutorialMessages.Length; i++){
@@ -120,5 +120,9 @@ public class Tutorial : MonoBehaviour
     IEnumerator Wait(){
         yield return new WaitForSeconds(.3f);
         changeMessage = true;
+    }
+
+    void OnEnable(){
+        playerTutorial = PlayerPrefs.GetInt("tutorial");
     }
 }
