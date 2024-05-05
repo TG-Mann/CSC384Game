@@ -104256,7 +104256,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 387231876}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: playGame
+        m_MethodName: resumeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -116506,7 +116506,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 387231876}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: playGame
+        m_MethodName: quitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
