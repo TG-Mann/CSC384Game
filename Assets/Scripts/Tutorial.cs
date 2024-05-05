@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
-
-    [SerializeField] private GameObject[] tutorialMessages;
     private int tutorialStep;
 
     [SerializeField] Player player;
