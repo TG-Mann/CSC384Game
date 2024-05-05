@@ -19,10 +19,15 @@ public class Tutorial : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI tutorialText;
 
-    private string[] messages = new string[]{"Lets go through some controls before we begin","Try pressing 'A' or 'D' to move Left and Right", "Good Job",
-        "Now press 'Space' to jump", "Nice One", "If you pess 'Space' twice you can double Jump, try double jumping.", "Excellent", "Try Holding 'Q'",  "Nice, This can be used to prevent you taking damage",
-        "If you press 'CTRL' you will roll, You must be Walking at the same time", "Well Done", "Press 'Shift' to dash", "Watch out, this has a cooldown", "Now lets press the right or left mouse button to attack",
-        "Finally lets perfrom an air attack", "Perfrom a double jump and then attack", "Brilliant, take a note of special items throughout the game these will give you increases abilities wehn activatyed usig '1', '2' or '3'. Now lets begin..."};
+    private string[] messages = new string[]{"Lets go through some controls before we begin",
+    "Try pressing 'A' or 'D' to move Left and Right", "Good Job!",
+    "Now press 'Space' to jump", "Nice One!", 
+    "If you press 'Space' twice you can double Jump, try double jumping.", "Excellent!", 
+    "Try Holding 'Q'",  "Nice, this can be used to prevent you taking damage",
+    "If you press 'CTRL' you will roll, make sure you are Walking at the same time", "Well Done!", 
+    "Press 'Shift' to dash", "Watch out, this has a cooldown", 
+    "Now lets press the right or left mouse button to attack", "Finally lets perfrom an air attack", 
+    "Perform a double jump and then attack", "Brilliant!, take a note of special items throughout the game these will give you increased abilities when activated using '1', '2' or '3', Now lets begin..."};
 
     private int sentence = 0;
     private bool endSentence = false;
@@ -47,8 +52,7 @@ public class Tutorial : MonoBehaviour
 
     void Update()
     {
-        print(endSentence);
-        print(sentence);
+       
         if (playerTutorial == 1 && endSentence){
             if (sentence == 0 || sentence == 2 || sentence == 4 || sentence == 6 || sentence == 8 || sentence == 10 || sentence == 12 || sentence == 14){
                 StartCoroutine("betweenSentence"); 
