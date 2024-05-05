@@ -21,6 +21,7 @@ public class PlayerAttachTwo : IPlayerState
 
     public void Enter(Player player)
     {
+        player.getSwordTwo().Play();
         animator = player.GetComponent<Animator>();
         rb = player.GetComponent<Rigidbody2D>();
         animator.SetBool("AttackTwo",true);

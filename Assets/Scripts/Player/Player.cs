@@ -20,6 +20,12 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask HorizontalLayer;
     [SerializeField] private Animator animator; 
 
+    [SerializeField] private GameObject swordExplosion;
+
+    [SerializeField] private ParticleSystem swordOne;
+    [SerializeField] private ParticleSystem swordTwo;
+    [SerializeField] private ParticleSystem swordThree;
+
     public enum PlayerSize{small, normal, large}
 
     private PlayerSize playerSize = PlayerSize.normal;
@@ -157,6 +163,22 @@ public class Player : MonoBehaviour
 
     public PlayerSize getPlayerSize(){
         return playerSize;
+    }
+
+    public GameObject getSwordExplosion(){
+        return swordExplosion;
+    }
+
+    public ParticleSystem getSwordOne(){
+        return swordOne;
+    }
+
+    public ParticleSystem getSwordTwo(){
+        return swordTwo;
+    }
+
+    public ParticleSystem getSwordThree(){
+        return swordThree;
     }
 
     private void OnDrawGizmos(){

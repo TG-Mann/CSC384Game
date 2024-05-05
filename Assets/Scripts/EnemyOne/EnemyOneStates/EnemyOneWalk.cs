@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyOneWalk : IEnemyOneState
@@ -13,14 +14,16 @@ public class EnemyOneWalk : IEnemyOneState
 
     private float speed = 0.01f;
 
-    private Vector2 startPoint = new Vector2(5f, 1.6f);
+    private Vector2 startPoint;
 
-    private Vector2 endPoint =  new Vector2(8f, 1.6f);
+    private Vector2 endPoint;
 
     EnemyOne self;
 
     public void Enter(EnemyOne enemyOne)
     {
+        startPoint = new Vector2(enemyOne.getStartX(),enemyOne.getHeight());
+        endPoint = new Vector2(enemyOne.getEndX(),enemyOne.getHeight());
         self = enemyOne;
         animator = enemyOne.GetComponent<Animator>();
         enemyOne.setEnemyOneState("Walk");

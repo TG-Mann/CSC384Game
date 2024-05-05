@@ -9,6 +9,12 @@ public class EnemyOne : MonoBehaviour
 
     [SerializeField] private Animator animator; 
 
+    [SerializeField] private GameObject explosion;
+    [SerializeField] private GameObject explosion2;
+    [SerializeField] float startX;
+    [SerializeField] float endX;
+    [SerializeField] float height;
+
     private SpriteRenderer sprite;
 
     private string enemyOneState;
@@ -16,6 +22,8 @@ public class EnemyOne : MonoBehaviour
     Player player;
 
     bool dead;
+
+    private bool attack = false;
 
     private int timeSinceAttack = 1000;
 
@@ -43,6 +51,9 @@ public class EnemyOne : MonoBehaviour
     private void updateState(){
 
         IEnemyOneState newState = currentState.Tick(this, animator);
+        if (enemyOneState != "Attack"){
+            attack = false;
+        }
 
         if (newState != null){
             currentState.Exit(this);
@@ -52,19 +63,27 @@ public class EnemyOne : MonoBehaviour
     }
 
 
-    public void OnTriggerEnter2D(Collider2D collision){
-        if (collision.gameObject.CompareTag("Player")){
+    public void OnTriggerStay2D(Collider2D collision){
+        if (!attack){
+            if (collision.gameObject.CompareTag("Player")){
             string playerState = collision.GetComponent<Player>().getPLayerState();
             if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir" || collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large){
+                Instantiate(explosion2, transform.position, transform.rotation);
+                attack = true;
+                print("Explosion");
                 dead = true;
             }
             if (enemyOneState == "Attack"){
+                attack = true;
                 if (!(collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large) && !collision.GetComponent<Player>().getIsInvisible()){
-                     collision.GetComponent<Player>().setHit(true);
+                    Instantiate(explosion, collision.transform);
+                    collision.GetComponent<Player>().setHit(true);
                 }
                 
             }
         }
+        }
+       
     }
 
     public float distanceToPlayer(){
@@ -95,5 +114,17 @@ public class EnemyOne : MonoBehaviour
 
     public void setTimeSinceAttack(int newTime){
         timeSinceAttack = newTime;
+    }
+
+    public float getStartX(){
+        return startX;
+    }
+
+    public float getEndX(){
+        return endX;
+    }
+
+    public float getHeight(){
+        return height;
     }
 }

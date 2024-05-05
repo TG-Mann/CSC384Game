@@ -19,7 +19,8 @@ public class PlayerAttachOne : IPlayerState
     private float originalBCY;
 
     public void Enter(Player player)
-    {
+    { 
+        player.getSwordOne().Play();
         animator = player.GetComponent<Animator>();
         rb = player.GetComponent<Rigidbody2D>();  
         animator.SetBool("AttackOne",true);
@@ -33,6 +34,7 @@ public class PlayerAttachOne : IPlayerState
 
     public void Exit(Player player)
     {
+        player.GetComponent<ParticleSystem>();
         bc.size = new Vector2(originalBCX, originalBCY);
         animator.SetBool("AttackOne",false);
         

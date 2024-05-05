@@ -10,6 +10,10 @@ public class PlayerCollision : MonoBehaviour
 
     [SerializeField] Player player;
 
+    [SerializeField] private GameObject powerUpEffect1;
+    [SerializeField] private GameObject powerUpEffect2;
+    [SerializeField] private GameObject powerUpEffect3;
+
     private SpriteRenderer spriteRenderer;
 
     private bool hasInvicibleItem = false;
@@ -25,16 +29,19 @@ public class PlayerCollision : MonoBehaviour
 
     void Update(){
         if (hasLargeItem && Input.GetKeyUp(KeyCode.Alpha2)){
+            Instantiate(powerUpEffect1, transform.position, transform.rotation);
             new GrowItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasLargeItem = false;
         }
         if (hasSmallItem && Input.GetKeyUp(KeyCode.Alpha3)){
+            Instantiate(powerUpEffect2, transform.position, transform.rotation);
             new ShrinkItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasSmallItem = false;
         }
         if (hasInvicibleItem && Input.GetKeyUp(KeyCode.Alpha1)){
+            Instantiate(powerUpEffect3, transform.position, transform.rotation);
             new InvisibleItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasInvicibleItem = false;

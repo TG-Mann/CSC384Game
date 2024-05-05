@@ -18,6 +18,7 @@ public class PlayerAttackAir : IPlayerState
 
     public void Enter(Player player)
     {
+        player.getSwordThree().Play();
         animator = player.GetComponent<Animator>();
         rb = player.GetComponent<Rigidbody2D>();
         rb.gravityScale = 1;
