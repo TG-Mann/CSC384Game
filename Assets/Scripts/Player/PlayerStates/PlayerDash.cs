@@ -22,6 +22,7 @@ public class PlayerDash : IPlayerState
         animator = player.GetComponent<Animator>();
         animator.SetBool("Dash", true);
         player.setPlayerState("Dash");
+        player.getDashAudio().Play();
         
     }
 

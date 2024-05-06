@@ -22,12 +22,15 @@ public class PlayerWalk : IPlayerState
         rb.gravityScale = 1;
         self = player;
         player.setPlayerState("Walk");
+        self.getWalkAudio().loop = true;
+        self.getWalkAudio().Play();
         
     }
 
     public void Exit(Player player)
     {
         animator.SetBool("Walk", false);
+        self.getWalkAudio().loop = false;
     }
 
     public void frameUpdate()
@@ -40,7 +43,6 @@ public class PlayerWalk : IPlayerState
     {
         
         rb.velocity = new Vector2(self.getSpeed() * horizontalMovement, rb.velocity.y);
-        
     
    
     }

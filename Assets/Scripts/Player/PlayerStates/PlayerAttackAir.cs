@@ -29,6 +29,7 @@ public class PlayerAttackAir : IPlayerState
         self = player;
         bc.size = new Vector2(1f, bc.size.y);
         player.setPlayerState("AttackAir");
+        player.getHitAudio().Play();
     }
 
     public void Exit(Player player)

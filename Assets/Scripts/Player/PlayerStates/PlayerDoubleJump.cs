@@ -21,6 +21,7 @@ public class PlayerDoubleJump : IPlayerState
         rb.velocity = new Vector2(rb.velocity.x, player.getJump());
         rb.gravityScale = 1;
         self = player;
+        player.getJumpAudio().Play();
     }
 
     public void Exit(Player player)

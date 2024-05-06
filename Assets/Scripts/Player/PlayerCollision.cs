@@ -13,6 +13,10 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private GameObject powerUpEffect1;
     [SerializeField] private GameObject powerUpEffect2;
     [SerializeField] private GameObject powerUpEffect3;
+    [SerializeField] private AudioSource audioPowerUp1;
+    [SerializeField] private AudioSource audioPowerUp2;
+    [SerializeField] private AudioSource audioPowerUp3;
+    [SerializeField] private AudioSource pickUpPowerUp;
 
     private SpriteRenderer spriteRenderer;
 
@@ -30,18 +34,21 @@ public class PlayerCollision : MonoBehaviour
     void Update(){
         if (hasLargeItem && Input.GetKeyUp(KeyCode.Alpha2)){
             Instantiate(powerUpEffect1, transform.position, transform.rotation);
+            audioPowerUp1.Play();
             new GrowItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasLargeItem = false;
         }
         if (hasSmallItem && Input.GetKeyUp(KeyCode.Alpha3)){
             Instantiate(powerUpEffect2, transform.position, transform.rotation);
+            audioPowerUp3.Play();
             new ShrinkItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasSmallItem = false;
         }
         if (hasInvicibleItem && Input.GetKeyUp(KeyCode.Alpha1)){
             Instantiate(powerUpEffect3, transform.position, transform.rotation);
+            audioPowerUp2.Play();
             new InvisibleItem().Activate(spriteRenderer);
             StartCoroutine("Wait");
             hasInvicibleItem = false;
@@ -60,6 +67,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if (collision.gameObject.tag == "SmallItem"){
             if (!hasSmallItem){
+                pickUpPowerUp.Play();
                 collision.gameObject.SetActive(false);
                 hasSmallItem = true;
             }
@@ -67,6 +75,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if (collision.gameObject.tag == "BigItem"){
             if (!hasLargeItem){
+                pickUpPowerUp.Play();
                 collision.gameObject.SetActive(false);
                 hasLargeItem = true;
             }
@@ -74,6 +83,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if (collision.gameObject.tag == "InvisibleItem"){
             if (!hasInvicibleItem){
+                pickUpPowerUp.Play();
                 collision.gameObject.SetActive(false);
                 hasInvicibleItem = true;
             }

@@ -26,6 +26,12 @@ public class Player : MonoBehaviour
     [SerializeField] private ParticleSystem swordTwo;
     [SerializeField] private ParticleSystem swordThree;
 
+    [SerializeField] private AudioSource jumpAudio;
+    [SerializeField] private AudioSource dashAudio;
+    [SerializeField] private AudioSource damageAudio;
+    [SerializeField] private AudioSource hitAudio;
+    [SerializeField] private AudioSource walkAudio;
+
     public enum PlayerSize{small, normal, large}
 
     private PlayerSize playerSize = PlayerSize.normal;
@@ -219,6 +225,22 @@ public class Player : MonoBehaviour
 
     public GameObject getFade(){
         return fade;
+    }
+
+    public AudioSource getJumpAudio(){
+        return jumpAudio;
+    }
+    public AudioSource getDashAudio(){
+        return dashAudio;
+    }
+    public AudioSource getHitAudio(){
+        return hitAudio;
+    }
+    public AudioSource getDamageAudio(){
+        return damageAudio;
+    }
+    public AudioSource getWalkAudio(){
+        return walkAudio;
     }
 
 

@@ -22,6 +22,7 @@ public class PlayerHit : IPlayerState
         animator.SetBool("Hit",true);
         player.takeLife();
         self = player;
+        player.getDamageAudio().Play();
     }
 
     public void Exit(Player player)

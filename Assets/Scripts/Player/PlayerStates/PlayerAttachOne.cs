@@ -30,6 +30,7 @@ public class PlayerAttachOne : IPlayerState
         originalBCY = bc.size.y;
         bc.size = new Vector2(1.2f, bc.size.y);
         player.setPlayerState("AttackOne");
+        player.getHitAudio().Play();
     }
 
     public void Exit(Player player)

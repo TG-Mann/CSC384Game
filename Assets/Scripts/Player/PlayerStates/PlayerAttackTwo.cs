@@ -32,6 +32,7 @@ public class PlayerAttachTwo : IPlayerState
         self = player;
         bc.size = new Vector2(1.2f, bc.size.y);
         player.setPlayerState("AttackTwo");
+        player.getHitAudio().Play();
     }
 
     public void Exit(Player player)

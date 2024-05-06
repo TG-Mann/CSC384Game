@@ -1,1 +1,1 @@
-{"playerX":10.601733207702637,"playerY":2.109131336212158,"numLives":2,"hasGhost":false,"hasSmall":false,"hasLarge":true}
+{"playerX":24.447853088378908,"playerY":2.5056605339050295,"numLives":1,"hasGhost":false,"hasSmall":false,"hasLarge":false}
