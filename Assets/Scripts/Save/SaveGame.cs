@@ -19,7 +19,6 @@ public class SaveGame : MonoBehaviour
             string Json = JsonUtility.ToJson(saveObject);
             
             File.WriteAllText(Application.dataPath + "/save.txt", Json);
-            print(Application.dataPath);
         } 
 
     }
