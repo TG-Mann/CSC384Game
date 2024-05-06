@@ -52,7 +52,6 @@ public class Tutorial : MonoBehaviour
 
     void Update()
     {
-       
         if (playerTutorial == 1 && endSentence){
             if (sentence == 0 || sentence == 2 || sentence == 4 || sentence == 6 || sentence == 8 || sentence == 10 || sentence == 12 || sentence == 14){
                 StartCoroutine("betweenSentence"); 
