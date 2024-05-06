@@ -11,6 +11,7 @@ TagManager:
   - BigItem
   - InvisibleItem
   - Death
+  - VerticalPlatform
   layers:
   - Default
   - TransparentFX

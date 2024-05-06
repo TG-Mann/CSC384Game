@@ -11,6 +11,10 @@ public class BackToMenu : MonoBehaviour
     [SerializeField] private GameObject deathMessage;
     [SerializeField] private GameObject winMessage;
 
+    [SerializeField] private GameObject fade;
+
+    [SerializeField] private Animator animator;
+
     Player player;
 
     void Awake(){
@@ -34,9 +38,13 @@ public class BackToMenu : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")){
             if (gameObject.tag == "Death"){
                 deathMessage.SetActive(true);
+                fade.SetActive(true);
+                animator.SetTrigger("Fade");
                 StartCoroutine("Wait");
             } else if(gameObject.tag == "Finish"){
                 winMessage.SetActive(true);
+                fade.SetActive(true);
+                animator.SetTrigger("Fade");
                 StartCoroutine("Wait");
             }
           

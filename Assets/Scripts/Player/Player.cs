@@ -34,6 +34,10 @@ public class Player : MonoBehaviour
 
     [SerializeField] private PlayerCollision playerCollision;
 
+    [SerializeField] private GameObject fade;
+
+    [SerializeField] private Animator fadeAnimator;
+
     private int speed = 2;
 
     private int jump = 4;
@@ -207,6 +211,14 @@ public class Player : MonoBehaviour
 
     public void setIsInvisible(bool newInvicible){
         isInvisible = newInvicible;
+    }
+
+    public Animator getFadeAnimator(){
+        return fadeAnimator;
+    }
+
+    public GameObject getFade(){
+        return fade;
     }
 
 

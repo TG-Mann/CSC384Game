@@ -54,6 +54,10 @@ public class PlayerCollision : MonoBehaviour
            this.transform.parent = collision.transform;
    
         } 
+        if (collision.gameObject.CompareTag("VerticalPlatform")){
+           this.transform.parent = collision.transform;
+   
+        }
         if (collision.gameObject.tag == "SmallItem"){
             if (!hasSmallItem){
                 collision.gameObject.SetActive(false);
@@ -79,6 +83,9 @@ public class PlayerCollision : MonoBehaviour
 
     public void OnCollisionExit2D(Collision2D collision){
         if (collision.gameObject.CompareTag("HorizontalPlatform")){
+            this.transform.parent = null;
+        }
+        if (collision.gameObject.CompareTag("VerticalPlatform")){
             this.transform.parent = null;
         }
     }

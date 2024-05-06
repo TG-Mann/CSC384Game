@@ -12,6 +12,8 @@ public class PlayerHit : IPlayerState
 
     private BoxCollider2D bc;
 
+    Player self;
+
     public void Enter(Player player)
     {
         animator = player.GetComponent<Animator>();
@@ -19,6 +21,7 @@ public class PlayerHit : IPlayerState
         bc = player.GetComponent<BoxCollider2D>();
         animator.SetBool("Hit",true);
         player.takeLife();
+        self = player;
     }
 
     public void Exit(Player player)
@@ -49,6 +52,8 @@ public class PlayerHit : IPlayerState
     }
 
     private void playerDeath(){
+        self.getFade().SetActive(true);
+        self.getFadeAnimator().SetTrigger("Fade");
         bc.offset = new Vector2(bc.offset.x, -0.18f);
         animator.SetBool("Hit",false);
         animator.SetBool("Dead",true);

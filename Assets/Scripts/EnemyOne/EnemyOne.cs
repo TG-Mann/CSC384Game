@@ -70,7 +70,6 @@ public class EnemyOne : MonoBehaviour
             if (playerState == "AttackOne" || playerState == "AttackTwo"  || playerState == "AttackAir" || collision.GetComponent<Player>().getPlayerSize() == Player.PlayerSize.large){
                 Instantiate(explosion2, transform.position, transform.rotation);
                 attack = true;
-                print("Explosion");
                 dead = true;
             }
             if (enemyOneState == "Attack"){
