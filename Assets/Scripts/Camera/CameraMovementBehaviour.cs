@@ -9,9 +9,16 @@ public class CameraMovementBehaviour : MonoBehaviour
     private float xPos;
 
     private float yPos;
+
+    [SerializeField] Player player;
     public void FixedUpdate(){
-        if (move){
-           transform.position = Vector3.MoveTowards(transform.position, new Vector3(xPos, yPos, transform.position.z), 0.1f);
+        if (move){       
+            if((player.transform.position.x - this.transform.position.x) > 10){
+                transform.position = Vector3.MoveTowards(transform.position, new Vector3(xPos, yPos, transform.position.z), 10f);
+            } else{
+                transform.position = Vector3.MoveTowards(transform.position, new Vector3(xPos, yPos, transform.position.z), 0.1f);
+            }
+            
         }
     }
 
